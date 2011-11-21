@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  company: MyString
+  address_line_1: MyString
+  address_line_2: MyString
+  city: MyString
+  postcode: MyString
+  country: MyString
+  telephone: MyString
+  email: MyString
+  co_driver: MyString
+  sup_single_room: false
+  sup_junior_suite: false
+  sup_exceptional_car: false
+  sup_own_car: false
+  sup_tshirt: MyString
+  comments: MyText
+
+two:
+  name: MyString
+  company: MyString
+  address_line_1: MyString
+  address_line_2: MyString
+  city: MyString
+  postcode: MyString
+  country: MyString
+  telephone: MyString
+  email: MyString
+  co_driver: MyString
+  sup_single_room: false
+  sup_junior_suite: false
+  sup_exceptional_car: false
+  sup_own_car: false
+  sup_tshirt: MyString
+  comments: MyText

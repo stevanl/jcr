@@ -1,0 +1,19 @@
+<%= simple_form_for @registration do |f| %>
+  <%= f.input :name %>
+  <%= f.input :company %>
+  <%= f.input :address_line_1 %>
+  <%= f.input :address_line_2 %>
+  <%= f.input :city %>
+  <%= f.input :postcode %>
+  <%= f.input :country %>
+  <%= f.input :telephone %>
+  <%= f.input :email %>
+  <%= f.input :co_driver %>
+  <%= f.input :sup_single_room, :label => 'Your username please' %>
+  <%= f.input :sup_junior_suite %>
+  <%= f.input :sup_exceptional_car %>
+  <%= f.input :sup_own_car %>
+  <%= f.input :sup_tshirt %>
+  <%= f.input :comments %>
+  <%= f.button :submit %>
+<% end %>

@@ -11,6 +11,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1885,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README",
+			"settings":
+			{
+				"buffer_size": 3,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/database.yml",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/registrations/_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 577,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -52,134 +92,134 @@
 	},
 	"file_history":
 	[
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/corporate_account/registrations/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/controllers/auction_controller.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/config/routes.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/brokers/registrations/ifx/corporate_account.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/brokers/shared/forms/_corporate_account_basic_form.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/brokers/shared/forms/_personal_account_basic_form.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/brokers/registrations/ifx/personal_account.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/Gemfile",
-		"/Users/slitobac/Documents/Development/auctionfx/config/environment.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/corporate_account/confirmations/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/controllers/home_controller.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/home/index.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/home/dashboard.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/auction/show.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/personal_registration/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/bid/complete.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/bid/show.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/controllers/bid_controller.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20111026120811_devise_create_corporate_accounts.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/auction.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/corporate_account.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/auction_observer.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/broker.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/personal_registration.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/personal_account.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/controllers/personal_registration_controller.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/personal_account/registrations/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/broker_currency.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/controllers/application_controller.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/layouts/application.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/javascripts/application.js",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/javascripts/home.js.coffee",
-		"/Users/slitobac/Documents/Development/auctionfx/vendor/assets/javascripts/bootstrap-modal.js",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/rate.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/javascripts/auction.js.coffee",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/stylesheets/home.css.scss",
-		"/Users/slitobac/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20111020144401_create_rates.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/currency.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/vendor/assets/stylesheets/mixins.scss",
-		"/Users/slitobac/Documents/Work/Business/MyCurrencyTransfer/Auction FX/Interbank/xignite/ListCurrencies.xml",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/stylesheets/bootstrap-1.3.0.css",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/javascripts/brokers.js.coffee",
-		"/Users/slitobac/Documents/Development/auctionfx/app/controllers/brokers_controller.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/brokers/show.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/stylesheets/brokers.css.scss",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/stylesheets/application.css.scss",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/stylesheets/scaffolds.css.scss",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/stylesheets/application.css",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/home/dashboard.html:erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/stylesheets/bootstrap-1.2.0.css",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/country.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/config/application.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/Extensions/uuid.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/bid.rb",
-		"/Users/slitobac/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/slitobac/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20110920102128_create_bids.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20110906222950_create_auctions.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/auction/initializers.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20110903195710_create_factor_ages.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/factor_age.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/helpers/application_helper.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/auction_observer_observer.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/assets/stylesheets/bootstrap-1.0.0.css",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/personal/registrations/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20110913104642_devise_create_personals.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/personal.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/personals/registrations/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/config/initializers/devise.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/Personal/registrations/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/personals/sessions/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/config/locales/devise.en.yml",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/devise/registrations/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/personals/passwords/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/factor_amount.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20110908164325_devise_create_users.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/user.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20110913104434_devise_create_personals.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/views/devise/unlocks/new.html.erb",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20110906222910_create_auction_fxes.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/service.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/minimum_amount.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/factor_transfer_reason.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/factor_transfer_frequency.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/factor_occupation.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/factor_margin.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/factor_house_price.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/factor_country.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/db/migrate/20110826155459_create_countries.rb",
-		"/Users/slitobac/Documents/Development/auctionfx/.bundle/config",
-		"/Users/slitobac/Documents/Development/auctionfx/app/models/.gitkeep",
-		"/Users/slitobac/Documents/Development/mct_newsroom/db/migrate/20110819151444_devise_create_users.rb",
-		"/Users/slitobac/Documents/Development/mct_newsroom/app/views/devise/shared/_links.erb",
-		"/Users/slitobac/Documents/Development/mct_newsroom/config/application.rb",
-		"/Users/slitobac/Documents/Development/mct_newsroom/config/database.yml",
-		"/Users/slitobac/Documents/Development/mct_newsroom/Gemfile",
-		"/Users/slitobac/Documents/Development/admin/app/views/leads/show.html.erb",
-		"/Users/slitobac/Documents/Development/admin/app/controllers/leads_controller.rb",
-		"/Users/slitobac/Documents/Development/admin/app/controllers/application_controller.rb",
-		"/Users/slitobac/Documents/Development/admin/Gemfile",
-		"/Users/slitobac/Documents/Development/admin/config/database.yml",
-		"/Users/slitobac/Documents/Development/venue_management/public/stylesheets/vm.css",
-		"/Users/slitobac/Documents/Development/venue_management/config/assets.yml",
-		"/Users/slitobac/Documents/Development/venue_management/public/assets/common.css",
-		"/Users/slitobac/Documents/Development/venue_management/config/database.yml",
-		"/Users/slitobac/Documents/Development/venue_management/Gemfile",
-		"/Users/slitobac/Documents/Development/venue_management/app/controllers/attractions_controller.rb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/attractions/show.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/attractions/new.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/attractions/index.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/attractions/edit.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/attractions/_form.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/contacts/show.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/contacts/index.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/venues/index.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/nearby_facilities/new.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/nearby_facilities/show.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/styles/index.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/venues/show.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/meeting_rooms/_form.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/controllers/meeting_rooms_controller.rb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/meeting_rooms/show.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/meeting_rooms/index.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/nearby_facilities/_form.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/nearby_facilities/edit.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/views/nearby_facilities/index.html.erb",
-		"/Users/slitobac/Documents/Development/venue_management/app/controllers/nearby_facilities_controller.rb"
+		"/Users/stevanl/Documents/Development/chanarally/config/deploy.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/corporate_account/registrations/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/controllers/auction_controller.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/config/routes.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/brokers/registrations/ifx/corporate_account.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/brokers/shared/forms/_corporate_account_basic_form.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/brokers/shared/forms/_personal_account_basic_form.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/brokers/registrations/ifx/personal_account.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/Gemfile",
+		"/Users/stevanl/Documents/Development/auctionfx/config/environment.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/corporate_account/confirmations/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/controllers/home_controller.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/home/index.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/home/dashboard.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/auction/show.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/personal_registration/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/bid/complete.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/bid/show.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/controllers/bid_controller.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20111026120811_devise_create_corporate_accounts.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/auction.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/corporate_account.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/auction_observer.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/broker.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/personal_registration.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/personal_account.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/controllers/personal_registration_controller.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/personal_account/registrations/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/broker_currency.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/controllers/application_controller.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/layouts/application.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/javascripts/application.js",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/javascripts/home.js.coffee",
+		"/Users/stevanl/Documents/Development/auctionfx/vendor/assets/javascripts/bootstrap-modal.js",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/rate.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/javascripts/auction.js.coffee",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/stylesheets/home.css.scss",
+		"/Users/stevanl/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20111020144401_create_rates.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/currency.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/vendor/assets/stylesheets/mixins.scss",
+		"/Users/stevanl/Documents/Work/Business/MyCurrencyTransfer/Auction FX/Interbank/xignite/ListCurrencies.xml",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/stylesheets/bootstrap-1.3.0.css",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/javascripts/brokers.js.coffee",
+		"/Users/stevanl/Documents/Development/auctionfx/app/controllers/brokers_controller.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/brokers/show.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/stylesheets/brokers.css.scss",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/stylesheets/application.css.scss",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/stylesheets/scaffolds.css.scss",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/stylesheets/application.css",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/home/dashboard.html:erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/stylesheets/bootstrap-1.2.0.css",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/country.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/config/application.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/Extensions/uuid.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/bid.rb",
+		"/Users/stevanl/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/stevanl/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20110920102128_create_bids.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20110906222950_create_auctions.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/auction/initializers.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20110903195710_create_factor_ages.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/factor_age.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/helpers/application_helper.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/auction_observer_observer.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/assets/stylesheets/bootstrap-1.0.0.css",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/personal/registrations/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20110913104642_devise_create_personals.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/personal.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/personals/registrations/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/config/initializers/devise.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/Personal/registrations/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/personals/sessions/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/config/locales/devise.en.yml",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/devise/registrations/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/personals/passwords/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/factor_amount.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20110908164325_devise_create_users.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/user.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20110913104434_devise_create_personals.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/views/devise/unlocks/new.html.erb",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20110906222910_create_auction_fxes.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/service.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/minimum_amount.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/factor_transfer_reason.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/factor_transfer_frequency.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/factor_occupation.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/factor_margin.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/factor_house_price.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/factor_country.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/db/migrate/20110826155459_create_countries.rb",
+		"/Users/stevanl/Documents/Development/auctionfx/.bundle/config",
+		"/Users/stevanl/Documents/Development/auctionfx/app/models/.gitkeep",
+		"/Users/stevanl/Documents/Development/mct_newsroom/db/migrate/20110819151444_devise_create_users.rb",
+		"/Users/stevanl/Documents/Development/mct_newsroom/app/views/devise/shared/_links.erb",
+		"/Users/stevanl/Documents/Development/mct_newsroom/config/application.rb",
+		"/Users/stevanl/Documents/Development/mct_newsroom/config/database.yml",
+		"/Users/stevanl/Documents/Development/mct_newsroom/Gemfile",
+		"/Users/stevanl/Documents/Development/admin/app/views/leads/show.html.erb",
+		"/Users/stevanl/Documents/Development/admin/app/controllers/leads_controller.rb",
+		"/Users/stevanl/Documents/Development/admin/app/controllers/application_controller.rb",
+		"/Users/stevanl/Documents/Development/admin/Gemfile",
+		"/Users/stevanl/Documents/Development/admin/config/database.yml",
+		"/Users/stevanl/Documents/Development/venue_management/public/stylesheets/vm.css",
+		"/Users/stevanl/Documents/Development/venue_management/config/assets.yml",
+		"/Users/stevanl/Documents/Development/venue_management/public/assets/common.css",
+		"/Users/stevanl/Documents/Development/venue_management/config/database.yml",
+		"/Users/stevanl/Documents/Development/venue_management/Gemfile",
+		"/Users/stevanl/Documents/Development/venue_management/app/controllers/attractions_controller.rb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/attractions/show.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/attractions/new.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/attractions/index.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/attractions/edit.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/attractions/_form.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/contacts/show.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/contacts/index.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/venues/index.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/nearby_facilities/new.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/nearby_facilities/show.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/styles/index.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/venues/show.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/meeting_rooms/_form.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/controllers/meeting_rooms_controller.rb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/meeting_rooms/show.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/meeting_rooms/index.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/nearby_facilities/_form.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/nearby_facilities/edit.html.erb",
+		"/Users/stevanl/Documents/Development/venue_management/app/views/nearby_facilities/index.html.erb"
 	],
 	"find":
 	{
@@ -198,6 +238,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"text_field",
+			"\n    <%= f.label .*",
+			"\n    <%= f.label :[.+] %><br />",
+			"\n  </div>\n  <div class=\"field\">",
 			"get_acc",
 			"@current_user",
 			"@account_type",
@@ -253,9 +297,11 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"input",
+			"",
 			"  ",
 			""
 		],
@@ -268,8 +314,145 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 1885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "README",
+					"settings":
+					{
+						"buffer_size": 3,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/database.yml",
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Gemfile",
+					"settings":
+					{
+						"buffer_size": 536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/registrations/_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -315,6 +498,26 @@
 		"selected_items":
 		[
 			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"depl",
+				"config/deploy.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
 				"apphelp",
 				"app/helpers/application_helper.rb"
 			],
@@ -325,10 +528,6 @@
 			[
 				"auc",
 				"app/controllers/auction_controller.rb"
-			],
-			[
-				"routes",
-				"config/routes.rb"
 			],
 			[
 				"route",
@@ -395,10 +594,6 @@
 				"app/controllers/application_controller.rb"
 			],
 			[
-				"gem",
-				"Gemfile"
-			],
-			[
 				"pers",
 				"app/models/personal.rb"
 			],
@@ -427,20 +622,12 @@
 				"app/views/layouts/application.html.erb"
 			],
 			[
-				"gemf",
-				"Gemfile"
-			],
-			[
 				"gemfil",
 				"Gemfile"
 			],
 			[
 				"dev",
 				"db/migrate/20110819151444_devise_create_users.rb"
-			],
-			[
-				"data",
-				"config/database.yml"
 			],
 			[
 				"deve",
@@ -492,7 +679,7 @@
 		[
 			[
 				"",
-				"/Users/slitobac/Documents/Development/mtm_app/mtm_app.sublime-project"
+				"/Users/stevanl/Documents/Development/mtm_app/mtm_app.sublime-project"
 			]
 		],
 		"width": 380.0

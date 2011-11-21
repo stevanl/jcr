@@ -1,4 +1,12 @@
 Chanarally::Application.routes.draw do
+  resources :registrations
+
+  get "home/index"
+
+  get "home/package"
+
+  get "home/flights"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
