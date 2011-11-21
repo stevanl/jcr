@@ -1,27 +1,27 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails', '3.1.1'
+# gem 'mysql', '~> 2.8.1'
 gem 'mysql2'
-gem 'simple_form'
 
-# Gems used only for assets and not required
-# in production environments by default.
+gem 'simple_form'
+gem 'haml'
+
 group :assets do
-  gem 'sass-rails', "  ~> 3.1.0"
-  gem 'coffee-rails', "~> 3.1.0"
+  gem 'sass-rails', "  ~> 3.1.1"
+  gem 'coffee-rails', "~> 3.1.1"
   gem 'uglifier'
 end
 
+# JavasScript libs
 gem 'jquery-rails'
+gem 'modernizr-rails'
 
-# Use unicorn as the web server
-# gem 'unicorn'
+# Stylesheet libs
+gem 'blueprint-rails'
 
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'execjs'
+gem 'therubyracer'
 
 group :test do
   # Pretty printed test output
