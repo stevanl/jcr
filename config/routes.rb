@@ -5,6 +5,6 @@ Ttlunch2012::Application.routes.draw do
   get "overview" => 'home#overview'
   get 'about' => 'home#about'
   get 'package' => 'home#package'
-  get 'flight' => 'home#flight'
+  get 'flights' => 'home#flights'
   root :to => "home#index"
 end

@@ -8,7 +8,7 @@
           <li class="<%= "active" if params[:action] == 'index' %>"> <%= link_to 'Home', root_path %> </li>
           <li class="<%= "active" if params[:action] == 'new' && params[:controller] == 'registrations' %>"><%= link_to 'Registration', new_registration_path %></li>
           <li class="<%= "active" if params[:action] == 'package' %>"><%= link_to 'Package', package_path %></li>
-          <li class="<%= "active" if params[:action] == 'flights' %>"><%= link_to 'Flights', flight_path %></li>
+          <li class="<%= "active" if params[:action] == 'flights' %>"><%= link_to 'Flights', flights_path %></li>
           <li><%= link_to 'About Chana', about_path %></li>
         </ul>
       </div>
