@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Chanarally::Application.load_tasks
+Ttlunch2012::Application.load_tasks

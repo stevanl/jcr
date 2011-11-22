@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-Chanarally::Application.config.session_store :cookie_store, key: '_chanarally_session'
+Ttlunch2012::Application.config.session_store :cookie_store, key: '_ttlunch2012_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# Chanarally::Application.config.session_store :active_record_store
+# Ttlunch2012::Application.config.session_store :active_record_store

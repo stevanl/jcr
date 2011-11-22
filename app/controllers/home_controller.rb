@@ -2,10 +2,9 @@ class HomeController < ApplicationController
   def index
   end
 
-  def package
+  def overview
   end
 
-  def flights
+  def about
   end
-
 end

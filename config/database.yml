@@ -7,5 +7,4 @@ login: &login
 
 development:
   <<: *login
-  database: chanarally2012_development
-
+  database: ttlunch2012_development

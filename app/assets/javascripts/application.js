@@ -6,4 +6,9 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//= require jquery-ui
+//= require bootstrap-modal
+//= require bootstrap-dropdown
+//= require bootstrap-tabs
+//= require jquery.nivo.slider.pack
+//= require supersized.core.3.2.0.min

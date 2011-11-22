@@ -6,13 +6,8 @@ class HomeControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get package" do
-    get :package
-    assert_response :success
-  end
-
-  test "should get flights" do
-    get :flights
+  test "should get overview" do
+    get :overview
     assert_response :success
   end
 

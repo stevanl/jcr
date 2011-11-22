@@ -1,14 +1,78 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <title>Chanarally</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
+  <meta charset="utf-8">
+  <%= csrf_meta_tag %>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title> <%= @title.nil? ? "TrainE-TraidE Business Awards 2012" : @title+" | TrainE-TraidE Business Awards 2012" %> </title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%= stylesheet_link_tag "application" %>
   <%= csrf_meta_tags %>
+  <%= javascript_include_tag "modernizr" %>
+  <%= javascript_include_tag "application" %>
+  <script type="text/javascript">
+    jQuery(function($){
+      $.supersized({
+        fit_landscape: true,
+        vertical_center: false,
+        image_protect: true,
+        slides  :   [ {image : '/images/background/award.jpg', title : 'Image Credit: Jam Events'},{image : '/images/background/award.jpg', title : 'Image Credit: Jam Events'} ]
+      });
+    });
+  </script>
 </head>
+
 <body>
 
-<%= yield %>
 
+<div id="shell">
+  <div id="container" class="container">
+    <div id="header" >
+      <%= render :partial => "layouts/header" %>
+    </div><!-- /header -->
+    <div id="main">
+      <%= yield %>
+    </div><!-- /main -->
+  </div>
+</div>
+<div id="footer">
+  <div class="footer">
+    <span style="top: 5px"><%= link_to image_tag('/images/footer-tt-logo.png', :alt => "Visit the TrainE-TraidE website", :height => '25'), "http://www.traine-traide.org.uk", :title => "Visit the TrainE-TraidE website" %></span><span>314 Regents Park Road, London N3 2JX</span> <span>Tel: 020 8371 3280</span> <span>email: <a href="mailto:admin@traine.org.uk">admin@traine-traide.org.uk</a></span><span>U.K Charity Number: 1118690</span><span style="position:absolute;right:0;top: 15px"><%= link_to image_tag('/images/footer-jam-logo.png', :alt => "Visit Jam-Events", :height => '25'), "http://www.jam-events.com", :title => "Visit Jam-Events" %></span>
+  </div><!-- /footer -->
+</div><!-- /footer -->
+
+  <script type="text/javascript">
+    jQuery(window).load(function(){
+        jQuery("#ttlslider").nivoSlider({
+            effect:'fade',
+            slices:10,
+            boxCols:8,
+            boxRows:8,
+            animSpeed:500,
+            pauseTime:3000,
+            startSlide:0,
+            directionNav:true,
+            directionNavHide:true,
+            controlNav:true,
+            controlNavThumbs:false,
+            controlNavThumbsFromRel:true,
+            keyboardNav:false,
+            pauseOnHover:true,
+            manualAdvance:false
+        });
+    });
+  </script>
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview'],['_trackPageLoadTime']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
 </body>
 </html>

@@ -1,7 +1,7 @@
-set :application, "chanarally2012"
+set :application, "ttlunch2012"
 set :user, "deploy"
-set :domain, "chanarally2012.com"
-set :repository,  "git@github.com:stevanl/jcr.git"
+set :domain, "ttlunch2012.com"
+set :repository,  "git@github.com:stevanl/ttl.git"
 set :repository_cache, "git_master"
 set :use_sudo, false
 set :deploy_via, :remote_cache
@@ -23,9 +23,9 @@ task :l do
   set :deploy_to, "/home/deploy/#{application}/live"
 end
 
-role :app, "chanarally2012.com"
-role :web, "chanarally2012.com"
-role :db,  "chanarally2012.com", :primary => true
+role :app, "ttlunch2012.com"
+role :web, "ttlunch2012.com"
+role :db,  "ttlunch2012.com", :primary => true
 
 after "deploy:update_code", "deploy:copy_config_files"
 
@@ -56,6 +56,7 @@ namespace :deploy do
   
   task :restart, :roles => :app do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+    run "cd #{release_path}; bundle exec rake assets:precompile" 
     sudo "/usr/local/nginx/sbin/nginx -s reload"
     run "echo \"WEBSITE HAS BEEN DEPLOYED\""
   end

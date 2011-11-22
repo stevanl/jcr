@@ -1,4 +1,6 @@
-Chanarally::Application.configure do
+PASSWORD_FILE = YAML.load_file("#{Rails.root}/../../shared/config/.mpw")['password']
+
+Ttlunch2012::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
@@ -15,7 +17,8 @@ Chanarally::Application.configure do
   config.assets.compress = true
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = false
+  config.assets.compile = true
+  config.assets.initialize_on_precompile = false
 
   # Generate digests for assets URLs
   config.assets.digest = true
@@ -57,4 +60,34 @@ Chanarally::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+
+  
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   :address              => "smtp.gmail.com",
+  #   :port                 => 587,
+  #   :domain               => 'independentfx.com',
+  #   :user_name            => 'stevan@independentfx.com',
+  #   :password             => PASSWORD_FILE,
+  #   :authentication       => 'plain',
+  #   :enable_starttls_auto => true
+  # }
+  # config.action_mailer.perform_deliveries = true
+  # config.action_mailer.raise_delivery_errors = true
+
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    :domain             => "mail.traine.org.uk",
+    :address            => "mail.traine.org.uk",
+    :port               => 25,
+    :authentication => :login ,
+    :user_name          => 'traine.org.uk\awards',
+    :password           => 'traine123',
+  }
+
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+
 end

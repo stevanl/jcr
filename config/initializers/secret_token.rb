@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Chanarally::Application.config.secret_token = '861ab22b7c875811ca89a0f64f08e737617a61615b5b3250fcf5cd580890bdba0c0c0f0c173d4568fee55ccf6e4890c67eac2648b121fc64db93ef764c7dcad6'
+Ttlunch2012::Application.config.secret_token = 'bc1d9483c8569f3734d214f6cce4a68df27b3ef16ac4fae9697be0369e453aaeaf0d704998fad63b3eb4db6bd2ed28556d98e315f29779ed74898e1cad12238e'
