@@ -1,11 +1,6 @@
 Ttlunch2012::Application.routes.draw do
-  resources :table_bookings
 
-  resources :nominations
-
-  resources :rsvp
-
-  resources :brochures
+  resources :registrations
 
   get "overview" => 'home#overview'
   get 'about' => 'home#about'

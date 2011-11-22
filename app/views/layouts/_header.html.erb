@@ -6,7 +6,6 @@
       <div class="nav-top">
         <ul class="pills" data-tabs="tabs">
           <li class="<%= "active" if params[:action] == 'index' %>"> <%= link_to 'Home', root_path %> </li>
-          <li class="<%= "active" if params[:action] == 'new' && params[:controller] == 'brochures' %>"><%= link_to 'Brochure Form', new_brochure_path %></li>
           <li class="<%= "active" if params[:action] == 'new' && params[:controller] == 'registrations' %>"><%= link_to 'Registration', new_registration_path %></li>
           <li class="<%= "active" if params[:action] == 'package' %>"><%= link_to 'Package', package_path %></li>
           <li class="<%= "active" if params[:action] == 'flights' %>"><%= link_to 'Flights', flight_path %></li>
