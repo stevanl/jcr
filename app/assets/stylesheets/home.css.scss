@@ -10,21 +10,12 @@ body, li {
 .nav-top {
   position:relative;
   .pills {
-    width: 600px;
+    width: 510px;
     margin: 0 auto;
     margin-bottom: 0;
     li {
       font-weight: bold;
       font-size: 11pt;
-    }
-  }
-}
-.nav-bot {
-  .pills {
-    width: 780px;
-    margin: 0 auto 10px auto;
-    li {
-      font-size: 10pt;
     }
   }
 }
@@ -220,7 +211,6 @@ ul.inputs-list {
   }
 }
 
-
 #header {
   position: relative;
 }
@@ -236,10 +226,13 @@ ul.inputs-list {
   background: $white;
   margin-left:1px;
   width: 950px;
-  height: 84px;
+  height: 40px;
 }
 #nav-box.fixed {
   position: fixed;
   top: 0;
   @include box-shadow;
+}
+.theme-default .nivo-controlNav {
+  left: 35%;
 }
