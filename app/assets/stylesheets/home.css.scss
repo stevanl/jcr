@@ -254,3 +254,7 @@ input[type="checkbox"], input[type="radio"] {
     padding-right: 10px;
   }
 }
+
+.input.radio.optional label {
+  // display: none;
+}

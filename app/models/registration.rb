@@ -1,3 +1,3 @@
 class Registration < ActiveRecord::Base
-  validates_presence_of :name, :address_line_1, :postcode, :country, :email
+  # validates_presence_of :name, :address_line_1, :postcode, :country, :email
 end

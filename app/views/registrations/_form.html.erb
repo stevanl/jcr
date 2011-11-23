@@ -14,6 +14,12 @@
   <div class="clearfix"><%= f.input :email %></div>
   <div class="clearfix"><%= f.input :co_driver, :label => "Co-Driver" %></div>
   <div class="clearfix">
+    <div class="input">
+      <%= f.input :payment, :collection => [['Cheque', ' I will send a cheque payable to '], ['Invoice', ' I require an invoice'], ['BACS', ' I will make a BACS payment']], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
+    <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Train for Employment</dd><dt>Bank:</dt><dd>Natwest</dd><dt>Sort Code:</dt><dd>51-50-11</dd><dt>Account Number:</dt><dd>66541026</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
+    </div>
+  </div>
+  <div class="clearfix">
     <h2>Supplements</h2>
     <p>Tick as appropriate</p>
   </div>
@@ -39,3 +45,11 @@
 <div class="alert-message block-message warning contactme">
   <p>If you have any queries please email <a href="mailto:mark.curtis@traine-traide.org.uk">mark.curtis@traine-traide.org.uk</a> or call <strong>020 8371 3280</strong></p>
 </div>
+
+<script>
+  
+$(function(){
+  $('label[for="registration_payment_cheque"]').html(' I will send a cheque payable to <span class="lbl long"><br>Chana Charitable Trust c/o Jam Events,<br>314 Regents Park Road,<br>London, N3 2JX<br>(Chana Charitable Trust Registered U.K Charity Number 1070196)</span>');
+  $('label[for="registration_payment"]').hide();
+});
+</script>
