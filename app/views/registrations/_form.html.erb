@@ -1,19 +1,41 @@
 <%= simple_form_for @registration do |f| %>
-  <%= f.input :name %>
-  <%= f.input :company %>
-  <%= f.input :address_line_1 %>
-  <%= f.input :address_line_2 %>
-  <%= f.input :city %>
-  <%= f.input :postcode %>
-  <%= f.input :country %>
-  <%= f.input :telephone %>
-  <%= f.input :email %>
-  <%= f.input :co_driver %>
-  <div class="clearfix"><%= f.input :sup_single_room %></div>
-  <%= f.input :sup_junior_suite %>
-  <%= f.input :sup_exceptional_car %>
-  <%= f.input :sup_own_car %>
-  <%= f.input :sup_tshirt %>
-  <%= f.input :comments %>
-  <%= f.button :submit %>
+<fieldset>
+  <div class="clearfix">
+    <h2>Personal Details</h2>
+  </div>
+  <div class="clearfix"><%= f.input :name %></div>
+  <div class="clearfix"><%= f.input :company %></div>
+  <div class="clearfix"><%= f.input :address_line_1 %></div>
+  <div class="clearfix"><%= f.input :address_line_2 %></div>
+  <div class="clearfix"><%= f.input :city %></div>
+  <div class="clearfix"><%= f.input :postcode %></div>
+  <div class="clearfix"><%= f.input :country %></div>
+  <div class="clearfix"><%= f.input :telephone %></div>
+  <div class="clearfix"><%= f.input :email %></div>
+  <div class="clearfix"><%= f.input :co_driver, :label => "Co-Driver" %></div>
+  <div class="clearfix">
+    <h2>Supplements</h2>
+    <p>Tick as appropriate</p>
+  </div>
+  <div class="clearfix"><%= f.input :sup_single_room, :label => "Single Room (£200)" %></div>
+  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Junior Suite (£350)" %></div>
+  <div class="clearfix"><%= f.input :sup_exceptional_car, :label => "Exceptional Car (POA)" %>
+    <span class="help-block offset2"><strong>Example</strong>: Ferrari, Mercedes SLS</span>
+  </div>
+  <div class="clearfix"><%= f.input :sup_own_car, :label => "Own Car Transport (£1500 approx)" %></div>
+  <div class="clearfix">
+    <%= f.input :sup_tshirt, :input_html => { :class => 'mini' }, :label => "T-Shirt Size" %>
+    <span class="help-block offset2"><strong>NOTE</strong>: Sizes: S, M, L, XL, XXL</span>
+  </div>
+  <div class="clearfix">
+    <%= f.input :comments, :input_html => { :size => '30x10' }, :label => "Any other requirements or information" %></div>
+  <div class="clearfix">
+    <div class="input button">
+      <%= f.button :submit, :class => "btn large", :value => "Submit Registration" %>
+    </div>
+  </div>
+</fieldset>
 <% end %>
+<div class="alert-message block-message warning contactme">
+  <p>If you have any queries please email <a href="mailto:mark.curtis@traine-traide.org.uk">mark.curtis@traine-traide.org.uk</a> or call <strong>020 8371 3280</strong></p>
+</div>

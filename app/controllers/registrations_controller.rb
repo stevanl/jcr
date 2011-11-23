@@ -1,26 +1,4 @@
 class RegistrationsController < ApplicationController
-  # GET /registrations
-  # GET /registrations.json
-  def index
-    @registrations = Registration.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @registrations }
-    end
-  end
-
-  # GET /registrations/1
-  # GET /registrations/1.json
-  def show
-    @registration = Registration.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @registration }
-    end
-  end
-
   # GET /registrations/new
   # GET /registrations/new.json
   def new
@@ -30,11 +8,6 @@ class RegistrationsController < ApplicationController
       format.html # new.html.erb
       format.json { render json: @registration }
     end
-  end
-
-  # GET /registrations/1/edit
-  def edit
-    @registration = Registration.find(params[:id])
   end
 
   # POST /registrations
@@ -50,34 +23,6 @@ class RegistrationsController < ApplicationController
         format.html { render action: "new" }
         format.json { render json: @registration.errors, status: :unprocessable_entity }
       end
-    end
-  end
-
-  # PUT /registrations/1
-  # PUT /registrations/1.json
-  def update
-    @registration = Registration.find(params[:id])
-
-    respond_to do |format|
-      if @registration.update_attributes(params[:registration])
-        format.html { redirect_to @registration, notice: 'Registration was successfully updated.' }
-        format.json { head :ok }
-      else
-        format.html { render action: "edit" }
-        format.json { render json: @registration.errors, status: :unprocessable_entity }
-      end
-    end
-  end
-
-  # DELETE /registrations/1
-  # DELETE /registrations/1.json
-  def destroy
-    @registration = Registration.find(params[:id])
-    @registration.destroy
-
-    respond_to do |format|
-      format.html { redirect_to registrations_url }
-      format.json { head :ok }
     end
   end
 end

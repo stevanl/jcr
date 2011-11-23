@@ -37,8 +37,9 @@ body, li {
 }
 
 fieldset {
-  background: $purpleLight;
+  background: lighten($purplePale, 15%);
   padding-bottom: 10px;
+  @include border-radius;
 }
 
 body {
@@ -75,7 +76,7 @@ form {
   label {
     padding-right: 10px;}
 
-  .string, .text, .tel, .email, .integer, .optionsRadio, li span {
+  .string, .text, .tel, .email, .integer, .country, .boolean, .optionsRadio, li span {
     // color: $purpleDark;
     font-weight: bold;
   }
@@ -86,7 +87,7 @@ form {
 }
 
 input, textarea, select, .uneditable-input {
-  width: 210px;
+  width: 315px;
 }
 
 textarea#brochure_comments, textarea#nomination_reason, textarea#nomination_hear_about {
@@ -235,4 +236,8 @@ ul.inputs-list {
 }
 .theme-default .nivo-controlNav {
   left: 35%;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  margin-top: 10px;
 }
