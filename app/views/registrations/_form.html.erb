@@ -14,9 +14,13 @@
   <div class="clearfix"><%= f.input :email %></div>
   <div class="clearfix"><%= f.input :co_driver, :label => "Co-Driver" %></div>
   <div class="clearfix">
+    <h2>Payment Details</h2>
+    <p>Please select your preferred method of payment</p>
+  </div>
+  <div class="clearfix">
     <div class="input">
       <%= f.input :payment, :collection => [['Cheque', ' I will send a cheque payable to '], ['Invoice', ' I require an invoice'], ['BACS', ' I will make a BACS payment']], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
-    <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Train for Employment</dd><dt>Bank:</dt><dd>Natwest</dd><dt>Sort Code:</dt><dd>51-50-11</dd><dt>Account Number:</dt><dd>66541026</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
+      <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20211002</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
     </div>
   </div>
   <div class="clearfix">
