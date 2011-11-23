@@ -241,3 +241,16 @@ ul.inputs-list {
 input[type="checkbox"], input[type="radio"] {
   margin-top: 10px;
 }
+
+.tbli table {
+  @include center-block;
+  width: 500px;
+  td {
+    width: 320px;
+  }
+  td.time {
+    width: 180px;
+    text-align: right;
+    padding-right: 10px;
+  }
+}
