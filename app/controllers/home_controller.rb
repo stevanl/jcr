@@ -5,6 +5,9 @@ class HomeController < ApplicationController
   def package
   end
 
+  def sponsors
+  end
+
   def about
   end
 

@@ -10,7 +10,7 @@ body, li {
 .nav-top {
   position:relative;
   .pills {
-    width: 610px;
+    width: 710px;
     margin: 0 auto;
     margin-bottom: 0;
     li {
@@ -257,4 +257,12 @@ input[type="checkbox"], input[type="radio"] {
 
 .input.radio.optional label {
   // display: none;
+}
+
+#main {
+  font-family: 'Questrial', 'Helvetica', Arial, sans-serif;
+  p, li {
+    line-height: 23px;
+    font-size: 11.5pt;
+  }
 }
