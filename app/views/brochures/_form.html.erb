@@ -1,0 +1,68 @@
+<%= simple_form_for(@brochure) do |f| %>
+  <%= f.error_notification %>
+
+<fieldset>
+  <div class="clearfix">
+    <h2>Personal Details</h2>
+  </div>
+  <div class="clearfix">
+    <div class="input">
+      <%= f.input :advert, :collection => [
+        ['Quarter Page', ' Quarter Page (£150)'],
+        ['Half Page', ' Half Page (£250)'],
+        ['Full Page', ' Full Page (£500)'],
+        ['Silver Page', ' Silver Page (£1000)'],
+        ['Gold Page', ' Gold Page (£1500)'],
+        ['Diamond Page', ' Diamond Page (£2500)'],
+        ['Platinum Page', ' Platinum Page (£5000)'],
+        ['Patron', ' Patron (£10,000)']
+      ], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
+    </div>
+  </div>
+  <div class="clearfix"><%= f.input :name %></div>
+  <div class="clearfix"><%= f.input :company %></div>
+  <div class="clearfix"><%= f.input :address_line_1 %></div>
+  <div class="clearfix"><%= f.input :address_line_2 %></div>
+  <div class="clearfix"><%= f.input :postcode %></div>
+  <div class="clearfix"><%= f.input :telephone %></div>
+  <div class="clearfix"><%= f.input :email %></div>
+  <div class="clearfix">
+    <h2>Payment Details</h2>
+    <p>Please select your preferred method of payment</p>
+  </div>
+  <div class="clearfix"><%= f.input :amount, :label => "Donation amount:", :input_html => {:class => "small"} %></div>
+  <div class="clearfix">
+    <div class="input">
+      <%= f.input :payment, :collection => [['Cheque', ' I enclose a cheque payable to '], ['Invoice', ' I require an invoice'], ['BACS', ' I will make a BACS payment']], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
+      <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20211002</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
+    </div>
+  </div>
+  <div class="clearfix">
+    <h2>Advertising Copy</h2>
+    <p>Please write your message in the box below.</p>
+  </div>
+  <div class="clearfix">
+    <%= f.input :advertising_copy %>
+    <span class="help-block offset2">Alternatively, please supply high resolution, print optimised artwork in either EPS (with fonts converted to outlines) JPEG, TIFF or PDF format (300DPI) to <a href="mailto:mark@jam-events.com">mark@jam-events.com</a>.</span>
+  </div>
+
+  <div class="clearfix">
+    <div class="input button">
+      <%= f.button :submit, :class => "btn large", :value => "Submit Order Form" %>
+    </div>
+  </div>
+
+  <div class="alert-message block-message warning contactme">
+    <p>Kindly return this form by 28th March 2012 to:</p>
+    <p>Chana Charitable Trust c/o Jam Events, 314 Regents Park Road, London N3 2JX Tel: 020 8371 3286 Fax: 020 8346 1036</p>
+  </div>
+<% end %>
+
+<script>
+  
+$(function(){
+  $('label[for="brochure_payment_cheque"]').html(' I will send a cheque payable to <span class="lbl long"><br>Chana Charitable Trust c/o Jam Events,<br>314 Regents Park Road,<br>London, N3 2JX<br>(Chana Charitable Trust Registered U.K Charity Number 1070196)</span>');
+  $('label[for="brochure_payment"]').hide();
+  $('label[for="brochure_advert"]').hide();
+});
+</script>

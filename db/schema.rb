@@ -11,19 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111115202613) do
+ActiveRecord::Schema.define(:version => 20111124111848) do
 
   create_table "brochures", :force => true do |t|
+    t.string   "advert"
     t.string   "name"
     t.string   "company"
-    t.string   "address_1"
-    t.string   "address_2"
+    t.string   "address_line_1"
+    t.string   "address_line_2"
     t.string   "postcode"
     t.string   "telephone"
     t.string   "email"
-    t.string   "package"
     t.string   "payment"
-    t.text     "comments"
+    t.string   "amount"
+    t.text     "advertising_copy"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -51,10 +52,31 @@ ActiveRecord::Schema.define(:version => 20111115202613) do
     t.datetime "updated_at"
   end
 
+  create_table "registrations", :force => true do |t|
+    t.string   "name"
+    t.string   "company"
+    t.string   "address_line_1"
+    t.string   "address_line_2"
+    t.string   "city"
+    t.string   "postcode"
+    t.string   "country"
+    t.string   "telephone"
+    t.string   "email"
+    t.string   "co_driver"
+    t.string   "payment"
+    t.boolean  "sup_single_room"
+    t.boolean  "sup_junior_suite"
+    t.boolean  "sup_exceptional_car"
+    t.boolean  "sup_own_car"
+    t.string   "sup_tshirt"
+    t.text     "comments"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "rsvps", :force => true do |t|
     t.integer  "number_of_people"
     t.boolean  "attendance"
-    t.string   "amount"
     t.string   "donation"
     t.string   "name"
     t.string   "name_2"

@@ -1,5 +1,7 @@
 Ttlunch2012::Application.routes.draw do
 
+  resources :brochures
+
   resources :registrations
 
   get "overview" => 'home#overview'

@@ -1,25 +1,27 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
+  advert: MyString
   name: MyString
   company: MyString
-  address_1: MyString
-  address_2: MyString
+  address_line_1: MyString
+  address_line_2: MyString
   postcode: MyString
   telephone: MyString
   email: MyString
-  package: MyString
   payment: MyString
-  comments: MyText
+  amount: MyString
+  advertising_copy: MyText
 
 two:
+  advert: MyString
   name: MyString
   company: MyString
-  address_1: MyString
-  address_2: MyString
+  address_line_1: MyString
+  address_line_2: MyString
   postcode: MyString
   telephone: MyString
   email: MyString
-  package: MyString
   payment: MyString
-  comments: MyText
+  amount: MyString
+  advertising_copy: MyText
