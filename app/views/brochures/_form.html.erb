@@ -3,7 +3,8 @@
 
 <fieldset>
   <div class="clearfix">
-    <h2>Personal Details</h2>
+    <h2>Advert Requirements</h2>
+    <p>Please tick as appropriate</p>
   </div>
   <div class="clearfix">
     <div class="input">
@@ -17,7 +18,11 @@
         ['Platinum Page', ' Platinum Page (£5000)'],
         ['Patron', ' Patron (£10,000)']
       ], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
+      <span class="help-block offset2">A surcharge will be added for full colour adverts</span>
     </div>
+  </div>
+  <div class="clearfix">
+    <h2>Personal Details</h2>
   </div>
   <div class="clearfix"><%= f.input :name %></div>
   <div class="clearfix"><%= f.input :company %></div>
