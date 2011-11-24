@@ -16,6 +16,7 @@ class RegistrationsController < ApplicationController
 
     respond_to do |format|
       if @registration.save
+        NotificationMailer.registration_email(@registration).deliver
         format.html { render "thanks" }
       else
         format.html { render action: "new" }

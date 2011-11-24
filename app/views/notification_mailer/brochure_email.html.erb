@@ -35,16 +35,20 @@
         <td><%= @person.email %></td>
       </tr>
       <tr>
-        <th>Package:</th>
-        <td><%= @person.package %></td>
+        <th>Advert Required:</th>
+        <td><%= @person.advert %></td>
       </tr>
       <tr>
         <th>Payment:</th>
         <td><%= @person.payment %></td>
       </tr>
       <tr>
-        <th>Comments:</th>
-        <td><%= @person.comments %></td>
+        <th>Amount:</th>
+        <td><%= @person.amount %></td>
+      </tr>
+      <tr>
+        <th>Advertising Copy:</th>
+        <td><%= raw @person.advertising_copy %></td>
       </tr>
     </table>
   </body>

@@ -4,13 +4,12 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
   </head>
   <body>
-    <h1><%= @person.nom_name %> nominated <%= @person.name %>.</h1>
+    <h1><%= @person.name %> has registered.</h1>
     <table>
       <tr>
         <th>Name:</th>
         <td><%= @person.name %></td>
       </tr>
-      <tr><th>Nominee Details:</th><td>&nbsp;</td></tr>
       <tr>
         <th>Company:</th>
         <td><%= @person.company %></td>
@@ -24,8 +23,16 @@
         <td><%= @person.address_2 %></td>
       </tr>
       <tr>
+        <th>City:</th>
+        <td><%= @person.city %></td>
+      </tr>
+      <tr>
         <th>Postcode:</th>
         <td><%= @person.postcode %></td>
+      </tr>
+      <tr>
+        <th>Country:</th>
+        <td><%= @person.country %></td>
       </tr>
       <tr>
         <th>Telephone:</th>
@@ -36,45 +43,39 @@
         <td><%= @person.email %></td>
       </tr>
       <tr>
-        <th>Website:</th>
-        <td><%= @person.website %></td>
-      </tr>
-      <tr><th>Nominator's Details</th></tr>
-      <tr>
-        <th>Notified company?:</th>
-        <td><%= @person.notified_company %></td>
+        <th>Co-Driver:</th>
+        <td><%= @person.co_driver %></td>
       </tr>
       <tr>
-        <th>Name:</th>
-        <td><%= @person.nom_name %></td>
+        <th>Payment:</th>
+        <td><%= @person.payment %></td>
       </tr>
       <tr>
-        <th>Address 1:</th>
-        <td><%= @person.nom_address_1 %></td>
+        <th colspan="2">Supplements</th>
       </tr>
       <tr>
-        <th>Address 2:</th>
-        <td><%= @person.nom_address_2 %></td>
+        <th>Single Room?:</th>
+        <td><%= @person.single_room %></td>
       </tr>
       <tr>
-        <th>Postcode:</th>
-        <td><%= @person.nom_postcode %></td>
+        <th>Junior suite?:</th>
+        <td><%= @person.sup_junior_suite %></td>
       </tr>
       <tr>
-        <th>Telephone:</th>
-        <td><%= @person.nom_telephone %></td>
+        <th>Exceptional car?:</th>
+        <td><%= @person.sup_exceptional_car %></td>
       </tr>
       <tr>
-        <th>Email:</th>
-        <td><%= @person.nom_email %></td>
+        <th>Own car?:</th>
+        <td><%= @person.sup_own_car %></td>
       </tr>
       <tr>
-        <th>Reason:</th>
-        <td><%= @person.reason %></td>
+        <th>T-Shirt Size:</th>
+        <td><%= @person.sup_tshirt %></td>
       </tr>
       <tr>
-        <th>Heard about TT:</th>
-        <td><%= @person.hear_about %></td>
+        <th>Comments:</th>
+        <td><%= raw @person.comments %></td>
       </tr>
     </table>
   </body>
