@@ -269,4 +269,15 @@ input[type="checkbox"], input[type="radio"] {
 
 .sponsorhead {
   text-align: center;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.sponsorhead {
+  border: 5px $purple solid;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  @include border-radius(7px);
+  @include box-shadow;
+  @include translucent-border($purple, 0.2);
+
 }
