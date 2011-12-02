@@ -270,13 +270,9 @@ input[type="checkbox"], input[type="radio"] {
   // display: none;
 }
 
-#main {
+h1, h2, h3, h4, h5 {
   font-family: 'HasteristicoLight', 'Helvetica', Arial, sans-serif;
   letter-spacing:2px;
-  p, li {
-    line-height: 23px;
-    font-size: 11.5pt;
-  }
 }
 
 .sponsorhead {
@@ -292,9 +288,4 @@ input[type="checkbox"], input[type="radio"] {
   @include box-shadow;
   @include translucent-border($purple, 0.2);
 
-}
-
-.pills {
-  font-family: 'HasteristicoLight', 'Helvetica', Arial, sans-serif;
-  letter-spacing:2px;
 }
