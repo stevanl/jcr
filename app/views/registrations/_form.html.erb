@@ -12,15 +12,22 @@
   <div class="clearfix"><%= f.input :country %></div>
   <div class="clearfix"><%= f.input :telephone %></div>
   <div class="clearfix"><%= f.input :email %></div>
+  <div class="clearfix">
+    <%= f.input :sup_tshirt, :input_html => { :class => 'mini' }, :label => "T-Shirt Size" %>
+    <span class="help-block offset2"><strong>NOTE</strong>: Sizes: S, M, L, XL, XXL</span>
+  </div>
   <div class="clearfix"><%= f.input :co_driver, :label => "Co-Driver" %></div>
+  <div class="clearfix"><%= f.input :co_driver_email, :label => "Co-Driver Email" %></div>
   <div class="clearfix">
     <h2>Payment Details</h2>
+    <p>(Minimum Joining Fee £2000) in brackets please</p>
     <p>Please select your preferred method of payment</p>
   </div>
+  <div class="clearfix"><%= f.input :amount, :label => "Donation amount:", :input_html => {:class => "small"} %></div>
   <div class="clearfix">
     <div class="input">
-      <%= f.input :payment, :collection => [['Cheque', ' I will send a cheque payable to '], ['Invoice', ' I require an invoice'], ['BACS', ' I will make a BACS payment']], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
-      <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20211002</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
+      <%= f.input :payment, :collection => [['Cheque', ' I will send a cheque payable to '], ['Invoice', ' I require an invoice'], ['Receipt', ' I require a charity receipt'], ['BACS', ' I will make a BACS payment']], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
+      <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20262640</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
     </div>
   </div>
   <div class="clearfix">
@@ -29,14 +36,11 @@
   </div>
   <div class="clearfix"><%= f.input :sup_single_room, :label => "Single Room (£200)" %></div>
   <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Junior Suite (£350)" %></div>
-  <div class="clearfix"><%= f.input :sup_exceptional_car, :label => "Exceptional Car (POA)" %>
-    <span class="help-block offset2"><strong>Example</strong>: Ferrari, Mercedes SLS</span>
+  <div class="clearfix"><%= f.input :sup_exceptional_car, :label => "Exceptional Car" %>
+    <span class="help-block offset2"><strong>Example</strong>: Ferrari, Lamborghini, Bentley, Porsche, etc</span>
+    <span class="help-block offset2"><strong>Note</strong>: Availability &amp; pricing supplied upon request</span>
   </div>
   <div class="clearfix"><%= f.input :sup_own_car, :label => "Own Car Transport (£1500 approx)" %></div>
-  <div class="clearfix">
-    <%= f.input :sup_tshirt, :input_html => { :class => 'mini' }, :label => "T-Shirt Size" %>
-    <span class="help-block offset2"><strong>NOTE</strong>: Sizes: S, M, L, XL, XXL</span>
-  </div>
   <div class="clearfix">
     <%= f.input :comments, :input_html => { :size => '30x10' }, :label => "Any other requirements or information" %></div>
   <div class="clearfix">
@@ -53,7 +57,7 @@
 <script>
   
 $(function(){
-  $('label[for="registration_payment_cheque"]').html(' I will send a cheque payable to <span class="lbl long"><br>Chana Charitable Trust c/o Jam Events,<br>314 Regents Park Road,<br>London, N3 2JX<br>(Chana Charitable Trust Registered U.K Charity Number 1070196)</span>');
+  $('label[for="registration_payment_cheque"]').html(' I will send a cheque payable to <span class="lbl long"><br>Chana Charitable Trust<br>c/o Jam Events,<br>314 Regents Park Road,<br>London, N3 2JX<br>(Chana Charitable Trust Registered U.K Charity Number 1070196)</span>');
   $('label[for="registration_payment"]').hide();
 });
 </script>
