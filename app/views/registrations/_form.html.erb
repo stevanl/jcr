@@ -20,14 +20,14 @@
   <div class="clearfix"><%= f.input :co_driver_email, :label => "Co-Driver Email" %></div>
   <div class="clearfix">
     <h2>Payment Details</h2>
-    <p>(Minimum Joining Fee £2000) in brackets please</p>
+    <p>(Minimum Joining Fee £2000)</p>
     <p>Please select your preferred method of payment</p>
   </div>
   <div class="clearfix"><%= f.input :amount, :label => "Donation amount:", :input_html => {:class => "small"} %></div>
   <div class="clearfix">
     <div class="input">
       <%= f.input :payment, :collection => [['Cheque', ' I will send a cheque payable to '], ['Invoice', ' I require an invoice'], ['Receipt', ' I require a charity receipt'], ['BACS', ' I will make a BACS payment']], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
-      <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20262640</dd><dt>Swift Code:</dt><dd>CBKGB22</dd><dt>IBAN Number:</dt><dd>GB11CPBK0805150073210</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
+      <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20262640</dd><dt>Swift Code:</dt><dd>CBKGB22</dd><dt>IBAN Number:</dt><dd>GB11CPBK08005150073210</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
     </div>
   </div>
   <div class="clearfix">
@@ -57,7 +57,7 @@
 <script>
   
 $(function(){
-  $('label[for="registration_payment_cheque"]').html(' I will send a cheque payable to <span class="lbl long"><br>Chana Charitable Trust<br>c/o Jam Events,<br>314 Regents Park Road,<br>London, N3 2JX<br>(Chana Charitable Trust Registered U.K Charity Number 1070196)</span>');
+  $('label[for="registration_payment_cheque"]').html(' I will send a cheque payable to <span class="lbl long"><br>Chana Charitable Trust<br>c/o Jam Events,<br>314 Regents Park Road,<br>London,<br>N3 2JX<br>(Chana Charitable Trust Registered UK Charity Number 1070196)</span>');
   $('label[for="registration_payment"]').hide();
 });
 </script>
