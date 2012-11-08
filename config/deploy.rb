@@ -1,4 +1,4 @@
-set :application, "chanarally2012"
+set :application, "chanarally2013"
 set :user, "deploy"
 set :domain, "chanarally2012.com"
 set :repository,  "git@github.com:stevanl/jcr.git"
