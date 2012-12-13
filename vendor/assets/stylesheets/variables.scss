@@ -5,7 +5,7 @@
 
 // Links
 // $linkColor:         #0069d6;
-$linkColor:         #552d8e;
+$linkColor:         #6d0831;
 $linkColorHover:    darken($linkColor, 15);
 
 // Grays
@@ -25,13 +25,13 @@ $yellow:            #ffc40d;
 $orange:            #f89406;
 $pink:              #c3325f;
 $purple:            #7a43b6;
-$gold:              #552d8e;
+$gold:              #6d0831;
 
 // Chana colours
-$purple:              #552d8e;
-$purpleDark:          darken($gold, 10%);
-$purpleLight:         lighten($gold, 25%);
-$purplePale:          lighten($gold, 40%);
+$red:              #6d0831;
+$redDark:          darken($red, 10%);
+$redLight:         lighten($red, 25%);
+$redPale:          lighten($red, 40%);
 
 // Baseline grid
 $basefont:          13px;
