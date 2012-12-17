@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'arno_proregular';
-    src: url('/fonts/arno_pro-webfont.eot');
-    src: url('/fonts/arno_pro-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/arno_pro-webfont.woff') format('woff'),
-         url('/fonts/arno_pro-webfont.ttf') format('truetype'),
-         url('/fonts/arno_pro-webfont.svg#arno_proregular') format('svg');
+    font-family: 'engravers_mtregular';
+    src: url('/fonts/engr-webfont.eot');
+    src: url('/fonts/engr-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/engr-webfont.woff') format('woff'),
+         url('/fonts/engr-webfont.ttf') format('truetype'),
+         url('/fonts/engr-webfont.svg#engravers_mtregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,7 +15,9 @@ body, li {
 #shell {
   margin: 0 auto;
   width: 980px;
-  background: $white;
+  // background: $white;
+  background: url("/images/bg-top.png"), url("/images/bg-mid.png");
+  background-repeat: no-repeat, repeat-y;
   @include box-shadow(0 2px 10px rgba(0,0,0,0.25));
 }
 .nav-top {
@@ -183,6 +185,7 @@ span.collection_radio {
 
 h1, h2, h3 {
   margin-bottom: 10px;
+  text-transform:uppercase;
 }
 p.cta {
   text-align:center;
@@ -222,7 +225,9 @@ ul.inputs-list {
     color: $red;
   }
 }
-
+table.zebra-striped {
+  background: $white;
+}
 #header {
   position: relative;
 }
@@ -231,11 +236,11 @@ ul.inputs-list {
   width: 950px;
   left:-5px;
   z-index:9999;
-  background: $white;
+  // background: $white;
 }
 #nav-box {
   top: 0px;
-  background: $white;
+  // background: $white;
   margin-left:1px;
   width: 950px;
   height: 40px;
@@ -243,6 +248,7 @@ ul.inputs-list {
 #nav-box.fixed {
   position: fixed;
   top: 0;
+  background: url('/images/parchment_980px.jpg') no-repeat;
   @include box-shadow;
 }
 .theme-default .nivo-controlNav {
@@ -271,7 +277,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'arno_proregular', 'Helvetica', Arial, sans-serif;
+  font-family: 'engravers_mtregular', 'Helvetica', Arial, sans-serif;
   letter-spacing:2px;
 }
 
