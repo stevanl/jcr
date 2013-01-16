@@ -228,6 +228,16 @@ ul.inputs-list {
 table.zebra-striped {
   background: $white;
 }
+table th {
+  background-color: #6e0037;
+  color: $white;
+}
+
+table tr + tr td {
+  border-top: 1px solid #ecd9e1;
+}
+
+
 #header {
   position: relative;
 }

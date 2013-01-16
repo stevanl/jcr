@@ -20,14 +20,14 @@
   <div class="clearfix"><%= f.input :co_driver_email, :label => "Co-Driver Email" %></div>
   <div class="clearfix">
     <h2>Payment Details</h2>
-    <p>(Minimum Joining Fee £2000)</p>
+    <p>(Minimum Joining Fee £2500)</p>
     <p>Please select your preferred method of payment</p>
   </div>
   <div class="clearfix"><%= f.input :amount, :label => "Donation amount:", :input_html => {:class => "small"} %></div>
   <div class="clearfix">
     <div class="input">
       <%= f.input :payment, :collection => [['Cheque', ' I will send a cheque payable to '], ['Invoice', ' I require an invoice'], ['Receipt', ' I require a charity receipt'], ['BACS', ' I will make a BACS payment']], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
-      <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20211002</dd><dt>Swift Code:</dt><dd>CPBKGB22</dd><dt>IBAN Number:</dt><dd>GB11 CPBK 0800 5150 073210</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
+      <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20262640</dd><dt>Swift Code:</dt><dd>CPBKGB22</dd><dt>IBAN Number:</dt><dd>GB11 CPBK 0800 5150 073210</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
     </div>
   </div>
   <div class="clearfix">
@@ -35,7 +35,10 @@
     <p>Tick as appropriate</p>
   </div>
   <div class="clearfix"><%= f.input :sup_single_room, :label => "Single Room (£200)" %></div>
-  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Junior Suite (£350)" %></div>
+  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Executive Room (city view)" %></div>
+  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Prestige Room (sea view)" %></div>
+  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Junior Suite with terrace (£695)" %></div>
+  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Prestige Suite with separate lounge (£1290)" %></div>
   <div class="clearfix"><%= f.input :sup_exceptional_car, :label => "Exceptional Car" %>
     <span class="help-block offset2"><strong>Example</strong>: Ferrari, Lamborghini, Bentley, Porsche, etc</span>
     <span class="help-block offset2"><strong>Note</strong>: Availability &amp; pricing supplied upon request</span>
