@@ -1,6 +1,6 @@
 set :application, "chanarally2013"
 set :user, "deploy"
-set :domain, "chanarally2012.com"
+set :domain, "chanarally2013.com"
 set :repository,  "git@github.com:stevanl/jcr.git"
 set :repository_cache, "git_master"
 set :use_sudo, false
@@ -23,9 +23,9 @@ task :l do
   set :deploy_to, "/home/deploy/#{application}/live"
 end
 
-role :app, "chanarally2012.com"
-role :web, "chanarally2012.com"
-role :db,  "chanarally2012.com", :primary => true
+role :app, "chanarally2013.com"
+role :web, "chanarally2013.com"
+role :db,  "chanarally2013.com", :primary => true
 
 after "deploy:update_code", "deploy:copy_config_files"
 
