@@ -1,0 +1,121 @@
+# Logfile created on 2014-03-30 23:40:24 +0100 by logger.rb/41954
+I, [2014-03-30T23:40:24.230920 #26517]  INFO -- : 0:  rake (10.0.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.0.3.gemspec
+I, [2014-03-30T23:40:24.717818 #26517]  INFO -- : 0:  multi_json (1.2.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/multi_json-1.2.0.gemspec
+I, [2014-03-30T23:40:25.787480 #26517]  INFO -- : 0:  activesupport (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/activesupport-3.1.10.gemspec
+I, [2014-03-30T23:40:25.788174 #26517]  INFO -- : 0:  builder (3.0.4) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/builder-3.0.4.gemspec
+I, [2014-03-30T23:40:25.788538 #26517]  INFO -- : 0:  i18n (0.6.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/i18n-0.6.1.gemspec
+I, [2014-03-30T23:40:26.353204 #26517]  INFO -- : 0:  activemodel (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/activemodel-3.1.10.gemspec
+I, [2014-03-30T23:40:26.353846 #26517]  INFO -- : 0:  erubis (2.7.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-03-30T23:40:27.057666 #26517]  INFO -- : 0:  rack (1.3.9) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.3.9.gemspec
+I, [2014-03-30T23:40:27.058275 #26517]  INFO -- : 0:  rack-cache (1.2) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-cache-1.2.gemspec
+I, [2014-03-30T23:40:27.520555 #26517]  INFO -- : 0:  rack-mount (0.8.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-mount-0.8.3.gemspec
+I, [2014-03-30T23:40:27.521248 #26517]  INFO -- : 0:  rack-test (0.6.2) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-03-30T23:40:27.521676 #26517]  INFO -- : 0:  hike (1.2.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/hike-1.2.1.gemspec
+I, [2014-03-30T23:40:27.522088 #26517]  INFO -- : 0:  tilt (1.3.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.3.3.gemspec
+I, [2014-03-30T23:40:28.043040 #26517]  INFO -- : 0:  sprockets (2.0.4) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/sprockets-2.0.4.gemspec
+I, [2014-03-30T23:40:28.984244 #26517]  INFO -- : 0:  actionpack (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/actionpack-3.1.10.gemspec
+I, [2014-03-30T23:40:28.984923 #26517]  INFO -- : 0:  mime-types (1.19) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.19.gemspec
+I, [2014-03-30T23:40:28.985377 #26517]  INFO -- : 0:  polyglot (0.3.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/polyglot-0.3.3.gemspec
+I, [2014-03-30T23:40:28.985731 #26517]  INFO -- : 0:  treetop (1.4.12) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/treetop-1.4.12.gemspec
+I, [2014-03-30T23:40:29.664804 #26517]  INFO -- : 0:  mail (2.3.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/mail-2.3.3.gemspec
+I, [2014-03-30T23:40:30.127809 #26517]  INFO -- : 0:  actionmailer (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/actionmailer-3.1.10.gemspec
+I, [2014-03-30T23:40:30.723899 #26517]  INFO -- : 0:  arel (2.2.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/arel-2.2.3.gemspec
+I, [2014-03-30T23:40:30.724700 #26517]  INFO -- : 0:  tzinfo (0.3.35) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/tzinfo-0.3.35.gemspec
+I, [2014-03-30T23:40:31.587262 #26517]  INFO -- : 0:  activerecord (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/activerecord-3.1.10.gemspec
+I, [2014-03-30T23:40:32.110979 #26517]  INFO -- : 0:  activeresource (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/activeresource-3.1.10.gemspec
+I, [2014-03-30T23:40:32.612131 #26517]  INFO -- : 0:  ansi (1.4.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/ansi-1.4.3.gemspec
+I, [2014-03-30T23:40:32.612767 #26517]  INFO -- : 0:  rack-ssl (1.3.2) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-ssl-1.3.2.gemspec
+I, [2014-03-30T23:40:36.804879 #26517]  INFO -- : 0:  json (1.7.6) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.7.6.gemspec
+I, [2014-03-30T23:40:36.806184 #26517]  INFO -- : 0:  rdoc (3.12) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rdoc-3.12.gemspec
+I, [2014-03-30T23:40:37.386398 #26517]  INFO -- : 0:  thor (0.14.6) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.14.6.gemspec
+I, [2014-03-30T23:40:39.337710 #26517]  INFO -- : 0:  railties (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/railties-3.1.10.gemspec
+I, [2014-03-30T23:40:39.761678 #26517]  INFO -- : 0:  blueprint-rails (0.2.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/blueprint-rails-0.2.0.gemspec
+I, [2014-03-30T23:40:39.762415 #26517]  INFO -- : 0:  coffee-script-source (1.4.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-source-1.4.0.gemspec
+I, [2014-03-30T23:40:39.762870 #26517]  INFO -- : 0:  execjs (1.4.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/execjs-1.4.0.gemspec
+I, [2014-03-30T23:40:39.763310 #26517]  INFO -- : 0:  coffee-script (2.2.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-2.2.0.gemspec
+I, [2014-03-30T23:40:40.183907 #26517]  INFO -- : 0:  coffee-rails (3.1.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-rails-3.1.1.gemspec
+I, [2014-03-30T23:40:40.184593 #26517]  INFO -- : 0:  haml (3.1.7) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/haml-3.1.7.gemspec
+I, [2014-03-30T23:40:40.185004 #26517]  INFO -- : 0:  jquery-rails (2.1.4) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/jquery-rails-2.1.4.gemspec
+I, [2014-03-30T23:41:01.697489 #26517]  INFO -- : 0:  libv8 (3.11.8.13) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/libv8-3.11.8.13-x86_64-darwin-12.gemspec
+I, [2014-03-30T23:41:02.193340 #26517]  INFO -- : 0:  modernizr-rails (2.6.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/modernizr-rails-2.6.1.gemspec
+I, [2014-03-30T23:41:02.194017 #26517]  INFO -- : 0:  mysql2 (0.3.11) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/mysql2-0.3.11.gemspec
+I, [2014-03-30T23:41:02.194374 #26517]  INFO -- : 0:  bundler (1.5.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-03-30T23:41:02.633083 #26517]  INFO -- : 0:  rails (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rails-3.1.10.gemspec
+I, [2014-03-30T23:41:03.104132 #26517]  INFO -- : 0:  ref (1.0.2) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/ref-1.0.2.gemspec
+I, [2014-03-30T23:41:03.866628 #26517]  INFO -- : 0:  sass (3.2.5) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/sass-3.2.5.gemspec
+I, [2014-03-30T23:41:04.493330 #26517]  INFO -- : 0:  sass-rails (3.1.6) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/sass-rails-3.1.6.gemspec
+I, [2014-03-30T23:41:05.020916 #26517]  INFO -- : 0:  simple_form (1.5.2) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/simple_form-1.5.2.gemspec
+E, [2014-03-30T23:41:08.889655 #26517] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb 
+checking for main() in -lpthread... yes
+checking for main() in -lobjc... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling accessor.cc
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling array.cc
+clang: warning: argument unused during compilation: '-rdynamic'
+compiling backref.cc
+clang: warning: argument unused during compilation: '-rdynamic'
+backref.cc:35:50: error: no member named 'Wrap' in 'v8::External'
+    v8::Local<v8::Value> wrapper = v8::External::Wrap(this);
+                                   ~~~~~~~~~~~~~~^
+1 error generated.
+make: *** [backref.o] Error 1
+
+make failed, exit code 2
+
+Gem files will remain installed in /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/gems/therubyracer-0.11.2 for inspection.
+Results logged to /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/extensions/x86_64-darwin-12/2.0.0-static/therubyracer-0.11.2/gem_make.out
+
+/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:89:in `run'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:51:in `block in make'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:43:in `each'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:43:in `make'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:43:in `block in build'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/tempfile.rb:324:in `open'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `chdir'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `each'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:677:in `build_extensions'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/rubygems/installer.rb:232:in `install'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/source/rubygems.rb:94:in `install'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/stevanl/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/forwardable.rb:171:in `each'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:294:in `install_sequentially'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:97:in `run'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/installer.rb:15:in `install'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:257:in `install'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/cli.rb:10:in `start'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `block in <top (required)>'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/gems/bundler-1.5.1/bin/bundle:22:in `<top (required)>'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `load'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/bin/bundle:23:in `<main>'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'  \n/Users/stevanl/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-03-30T23:41:35.588850 #26770]  INFO -- : 0:  rake (10.0.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rake-10.0.3.gemspec
+I, [2014-03-30T23:41:35.589385 #26770]  INFO -- : 0:  multi_json (1.2.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/multi_json-1.2.0.gemspec
+I, [2014-03-30T23:41:35.589688 #26770]  INFO -- : 0:  activesupport (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/activesupport-3.1.10.gemspec
+I, [2014-03-30T23:41:35.589970 #26770]  INFO -- : 0:  builder (3.0.4) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/builder-3.0.4.gemspec
+I, [2014-03-30T23:41:35.590319 #26770]  INFO -- : 0:  i18n (0.6.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/i18n-0.6.1.gemspec
+I, [2014-03-30T23:41:35.590697 #26770]  INFO -- : 0:  activemodel (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/activemodel-3.1.10.gemspec
+I, [2014-03-30T23:41:35.591056 #26770]  INFO -- : 0:  erubis (2.7.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/erubis-2.7.0.gemspec
+I, [2014-03-30T23:41:35.591407 #26770]  INFO -- : 0:  rack (1.3.9) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-1.3.9.gemspec
+I, [2014-03-30T23:41:35.591847 #26770]  INFO -- : 0:  rack-cache (1.2) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-cache-1.2.gemspec
+I, [2014-03-30T23:41:35.592269 #26770]  INFO -- : 0:  rack-mount (0.8.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-mount-0.8.3.gemspec
+I, [2014-03-30T23:41:35.592790 #26770]  INFO -- : 0:  rack-test (0.6.2) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-test-0.6.2.gemspec
+I, [2014-03-30T23:41:35.593460 #26770]  INFO -- : 0:  hike (1.2.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/hike-1.2.1.gemspec
+I, [2014-03-30T23:41:35.593948 #26770]  INFO -- : 0:  tilt (1.3.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/tilt-1.3.3.gemspec
+I, [2014-03-30T23:41:35.595715 #26770]  INFO -- : 0:  sprockets (2.0.4) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/sprockets-2.0.4.gemspec
+I, [2014-03-30T23:41:35.596488 #26770]  INFO -- : 0:  actionpack (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/actionpack-3.1.10.gemspec
+I, [2014-03-30T23:41:35.596937 #26770]  INFO -- : 0:  mime-types (1.19) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/mime-types-1.19.gemspec
+I, [2014-03-30T23:41:35.597444 #26770]  INFO -- : 0:  polyglot (0.3.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/polyglot-0.3.3.gemspec
+I, [2014-03-30T23:41:35.597948 #26770]  INFO -- : 0:  treetop (1.4.12) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/treetop-1.4.12.gemspec
+I, [2014-03-30T23:41:35.598424 #26770]  INFO -- : 0:  mail (2.3.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/mail-2.3.3.gemspec
+I, [2014-03-30T23:41:35.598904 #26770]  INFO -- : 0:  actionmailer (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/actionmailer-3.1.10.gemspec
+I, [2014-03-30T23:41:35.599365 #26770]  INFO -- : 0:  arel (2.2.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/arel-2.2.3.gemspec
+I, [2014-03-30T23:41:35.599826 #26770]  INFO -- : 0:  tzinfo (0.3.35) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/tzinfo-0.3.35.gemspec
+I, [2014-03-30T23:41:35.600325 #26770]  INFO -- : 0:  activerecord (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/activerecord-3.1.10.gemspec
+I, [2014-03-30T23:41:35.600802 #26770]  INFO -- : 0:  activeresource (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/activeresource-3.1.10.gemspec
+I, [2014-03-30T23:41:35.601267 #26770]  INFO -- : 0:  ansi (1.4.3) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/ansi-1.4.3.gemspec
+I, [2014-03-30T23:41:35.601733 #26770]  INFO -- : 0:  rack-ssl (1.3.2) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rack-ssl-1.3.2.gemspec
+I, [2014-03-30T23:41:35.602218 #26770]  INFO -- : 0:  json (1.7.6) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/json-1.7.6.gemspec
+I, [2014-03-30T23:41:35.602692 #26770]  INFO -- : 0:  rdoc (3.12) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rdoc-3.12.gemspec
+I, [2014-03-30T23:41:35.603163 #26770]  INFO -- : 0:  thor (0.14.6) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/thor-0.14.6.gemspec
+I, [2014-03-30T23:41:35.603672 #26770]  INFO -- : 0:  railties (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/railties-3.1.10.gemspec
+I, [2014-03-30T23:41:35.604091 #26770]  INFO -- : 0:  blueprint-rails (0.2.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/blueprint-rails-0.2.0.gemspec
+I, [2014-03-30T23:41:35.604497 #26770]  INFO -- : 0:  bundler (1.5.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353@global/specifications/bundler-1.5.1.gemspec
+I, [2014-03-30T23:41:35.604879 #26770]  INFO -- : 0:  coffee-script-source (1.4.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-source-1.4.0.gemspec
+I, [2014-03-30T23:41:35.605281 #26770]  INFO -- : 0:  execjs (1.4.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/execjs-1.4.0.gemspec
+I, [2014-03-30T23:41:35.605575 #26770]  INFO -- : 0:  coffee-script (2.2.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-script-2.2.0.gemspec
+I, [2014-03-30T23:41:35.605874 #26770]  INFO -- : 0:  coffee-rails (3.1.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/coffee-rails-3.1.1.gemspec
+I, [2014-03-30T23:41:35.606200 #26770]  INFO -- : 0:  haml (3.1.7) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/haml-3.1.7.gemspec
+I, [2014-03-30T23:41:35.606671 #26770]  INFO -- : 0:  jquery-rails (2.1.4) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/jquery-rails-2.1.4.gemspec
+I, [2014-03-30T23:41:35.607046 #26770]  INFO -- : 0:  modernizr-rails (2.6.1) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/modernizr-rails-2.6.1.gemspec
+I, [2014-03-30T23:41:35.607354 #26770]  INFO -- : 0:  mysql2 (0.3.11) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/mysql2-0.3.11.gemspec
+I, [2014-03-30T23:41:35.607669 #26770]  INFO -- : 0:  rails (3.1.10) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/rails-3.1.10.gemspec
+I, [2014-03-30T23:41:35.608065 #26770]  INFO -- : 0:  sass (3.2.5) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/sass-3.2.5.gemspec
+I, [2014-03-30T23:41:35.608403 #26770]  INFO -- : 0:  sass-rails (3.1.6) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/sass-rails-3.1.6.gemspec
+I, [2014-03-30T23:41:35.608735 #26770]  INFO -- : 0:  simple_form (1.5.2) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/simple_form-1.5.2.gemspec
+I, [2014-03-30T23:41:36.105780 #26770]  INFO -- : 0:  turn (0.9.6) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/turn-0.9.6.gemspec
+I, [2014-03-30T23:41:36.106621 #26770]  INFO -- : 0:  uglifier (1.3.0) from /Users/stevanl/.rvm/gems/ruby-2.0.0-p353/specifications/uglifier-1.3.0.gemspec

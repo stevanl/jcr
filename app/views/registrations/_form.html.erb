@@ -34,10 +34,10 @@
     <h2>Supplements</h2>
     <p>Tick as appropriate</p>
   </div>
-  <div class="clearfix"><%= f.input :sup_single_room, :label => "Single Room (£200)" %></div>
-  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Executive Room (city view) (£325)" %></div>
-  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Prestige Room (sea view) (£500)" %></div>
-  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Junior Suite with terrace (£695)" %></div>
+  <div class="clearfix"><%= f.input :sup_single_room, :label => "Single Room (£100)" %></div>
+  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Superior room (£150)" %></div>
+  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Junior Suite (8 available) (£250)" %></div>
+  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Junior Suite Prestige Collection (5 available) (£300)" %></div>
   <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Prestige Suite with separate lounge (£1290)" %></div>
   <div class="clearfix"><%= f.input :sup_exceptional_car, :label => "Exceptional Car" %>
     <span class="help-block offset2"><strong>Example</strong>: Ferrari, Lamborghini, Bentley, Porsche, etc</span>
@@ -58,7 +58,7 @@
 </div>
 
 <script>
-  
+
 $(function(){
   $('label[for="registration_payment_cheque"]').html(' I will send a cheque payable to <span class="lbl long"><br>Chana Charitable Trust<br>c/o Jam Events,<br>314 Regents Park Road,<br>London,<br>N3 2JX<br>(Chana Charitable Trust Registered UK Charity Number 1070196)</span>');
   $('label[for="registration_payment"]').hide();

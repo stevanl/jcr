@@ -21,7 +21,6 @@ gem 'modernizr-rails'
 gem 'blueprint-rails'
 
 gem 'execjs'
-gem 'therubyracer'
 
 group :test do
   # Pretty printed test output
