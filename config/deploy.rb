@@ -1,6 +1,6 @@
-set :application, "chanarally2013"
+set :application, "chanarally2014"
 set :user, "deploy"
-set :domain, "chanarally2013.com"
+set :domain, "chanarally2014.com"
 set :repository,  "git@github.com:stevanl/jcr.git"
 set :repository_cache, "git_master"
 set :use_sudo, false
@@ -12,7 +12,7 @@ default_run_options[:shell] = false
 set :app_symlinks, %w(files)
 set :rails_config_files, %w(database.yml)
 
-task :s do 
+task :s do
    set :rails_env, :test
    set :deploy_to, "/home/deploy/#{application}/stage"
 end
@@ -23,9 +23,9 @@ task :l do
   set :deploy_to, "/home/deploy/#{application}/live"
 end
 
-role :app, "chanarally2013.com"
-role :web, "chanarally2013.com"
-role :db,  "chanarally2013.com", :primary => true
+role :app, "chanarally2014.com"
+role :web, "chanarally2014.com"
+role :db,  "chanarally2014.com", :primary => true
 
 after "deploy:update_code", "deploy:copy_config_files"
 
@@ -36,27 +36,27 @@ namespace :deploy do
       run "cp #{shared_path}/config/#{filename} #{release_path}/config/#{filename}"
     end
   end
-  
+
   task :generate_assets, :roles => :web do
     run "cd #{release_path} && /usr/local/bin/jammit config/assets.yml"
   end
-  
+
   task :start, :roles => :app do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
     sudo "/usr/local/nginx/sbin/nginx"
     run "echo \"NGINX HAS STARTED\""
     run "echo \"WEBSITE HAS BEEN DEPLOYED\""
   end
-  
+
   task :stop, :roles => :app do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
     sudo "/usr/local/nginx/sbin/nginx -s stop"
     run "echo \"NGINX HAS STOPPED\""
   end
-  
+
   task :restart, :roles => :app do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
-    run "cd #{release_path}; bundle exec rake assets:precompile" 
+    run "cd #{release_path}; bundle exec rake assets:precompile"
     sudo "/usr/local/nginx/sbin/nginx -s reload"
     run "echo \"WEBSITE HAS BEEN DEPLOYED\""
   end
