@@ -10,5 +10,6 @@ Ttlunch2012::Application.routes.draw do
   get 'itinerary' => 'home#itinerary'
   get 'flights' => 'home#flights'
   get 'sponsors' => 'home#sponsors'
+  get 'history' => 'home#history'
   root :to => "home#index"
 end

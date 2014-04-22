@@ -1,10 +1,10 @@
 login: &login
   adapter: mysql2
   username: root
-  password: 
+  password:
   host: localhost
   encoding: utf8
 
 development:
   <<: *login
-  database: chanarally2012_development
+  database: chanarally2014_development

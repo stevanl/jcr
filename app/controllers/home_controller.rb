@@ -13,4 +13,7 @@ class HomeController < ApplicationController
 
   def flights
   end
+
+  def history
+  end
 end
