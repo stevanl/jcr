@@ -7,6 +7,9 @@
     <h1><%= @person.name %> has registered.</h1>
     <table>
       <tr>
+        <th colspan="2">Driver 1</th>
+      </tr>
+      <tr>
         <th>Name:</th>
         <td><%= @person.name %></td>
       </tr>
@@ -43,23 +46,46 @@
         <td><%= @person.email %></td>
       </tr>
       <tr>
-        <th>Co-Driver:</th>
-        <td><%= @person.co_driver %></td>
+        <th colspan="2">Driver 2</th>
+      </tr>
+      <tr>
+        <th>Co-Driver Name:</th>
+        <td><%= @person.co_driver_name %></td>
+      </tr>
+      <tr>
+        <th>Co-Driver Company:</th>
+        <td><%= @person.co_driver_company %></td>
+      </tr>
+      <tr>
+        <th>Co-Driver Address:</th>
+        <td><%= @person.co_driver_address_line_1 %></td>
+      </tr>
+      <tr>
+        <th>Co-Driver Address:</th>
+        <td><%= @person.co_driver_address_line_2 %></td>
+      </tr>
+      <tr>
+        <th>Co-Driver City:</th>
+        <td><%= @person.co_driver_city %></td>
+      </tr>
+      <tr>
+        <th>Co-Driver Postcode:</th>
+        <td><%= @person.co_driver_postcode %></td>
+      </tr>
+      <tr>
+        <th>Co-Driver Country:</th>
+        <td><%= @person.co_driver_country %></td>
       </tr>
       <tr>
         <th>Co-Driver Email:</th>
         <td><%= @person.co_driver_email %></td>
       </tr>
       <tr>
-        <th>Payment:</th>
-        <td><%= @person.payment %></td>
+        <th>Co-Driver Telephone:</th>
+        <td><%= @person.co_driver_telephone %></td>
       </tr>
       <tr>
-        <th>Amount:</th>
-        <td><%= @person.amount %></td>
-      </tr>
-      <tr>
-        <th colspan="2">Supplements</th>
+        <th colspan="2">Room Supplements</th>
       </tr>
       <tr>
         <th>Single Room?:</th>
@@ -86,12 +112,30 @@
         <td><%= @person.sup_penthouse %></td>
       </tr>
       <tr>
+        <th colspan="2">Car Supplements</th>
+      </tr>
+      <tr>
         <th>Own car?:</th>
         <td><%= @person.sup_own_car %></td>
       </tr>
       <tr>
         <th>Video highlights:</th>
         <td><%= @person.sup_car_video_highlights %></td>
+      </tr>
+      <tr>
+        <th>Exceptional Car List:</th>
+        <td><%= @person.sup_supercar %></td>
+      </tr>
+      <tr>
+        <th colspan="2">Payment</th>
+      </tr>
+      <tr>
+        <th>Payment:</th>
+        <td><%= @person.payment %></td>
+      </tr>
+      <tr>
+        <th>Amount:</th>
+        <td><%= @person.amount %></td>
       </tr>
       <tr>
         <th>Comments:</th>

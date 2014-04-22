@@ -1,7 +1,7 @@
 <%= simple_form_for @registration do |f| %>
 <fieldset>
   <div class="clearfix">
-    <h2>Personal Details</h2>
+    <h2>Driver 1 Details</h2>
   </div>
   <div class="clearfix"><%= f.input :name %></div>
   <div class="clearfix"><%= f.input :company %></div>
@@ -12,8 +12,19 @@
   <div class="clearfix"><%= f.input :country %></div>
   <div class="clearfix"><%= f.input :telephone %></div>
   <div class="clearfix"><%= f.input :email %></div>
-  <div class="clearfix"><%= f.input :co_driver, :label => "Co-Driver" %></div>
-  <div class="clearfix"><%= f.input :co_driver_email, :label => "Co-Driver Email" %></div>
+
+  <div class="clearfix">
+    <h2>Driver 2 Details</h2>
+  </div>
+  <div class="clearfix"><%= f.input :co_driver_name, :label => "Driver 2 Name:" %></div>
+  <div class="clearfix"><%= f.input :co_driver_company, :label => "Driver 2 Company:" %></div>
+  <div class="clearfix"><%= f.input :co_driver_address_line_1, :label => "Driver 2 Address:" %></div>
+  <div class="clearfix"><%= f.input :co_driver_address_line_2, :label => "Driver 2 Address:" %></div>
+  <div class="clearfix"><%= f.input :co_driver_city, :label => "Driver 2 City:" %></div>
+  <div class="clearfix"><%= f.input :co_driver_postcode, :label => "Driver 2 Postcode:" %></div>
+  <div class="clearfix"><%= f.input :co_driver_country, :label => "Driver 2 Country:" %></div>
+  <div class="clearfix"><%= f.input :co_driver_telephone, :label => "Driver 2 Telephone:" %></div>
+  <div class="clearfix"><%= f.input :co_driver_email, :label => "Driver 2 Email:" %></div>
 
   <div class="clearfix">
     <h2>Room Supplements</h2>
@@ -115,13 +126,14 @@
 
 <% end %>
 <div class="alert-message block-message warning contactme">
-  <p>If you have any queries please email <a href="mailto:mark@jam-events.com">mark@jam-events.com</a> or call <strong>020 8371 3286</strong></p>
+  <p>If you have any queries please email <a href="mailto:desi@jam-events.com">desi@jam-events.com</a> or call <strong>020 8371 9080</strong></p>
 </div>
 
 <script>
 
 $(function(){
-  $('label[for="registration_payment_cheque"]').html(' I will send a cheque payable to <span class="lbl long"><br>Chana Charitable Trust<br>c/o Jam Events,<br>314 Regents Park Road,<br>London,<br>N3 2JX<br>(Chana Charitable Trust Registered UK Charity Number 1070196)</span>');
+  $('label[for="registration_payment_cheque"]').html(' I will send a cheque <span class="lbl long"><br>payable to Chana Charitable Trust<br>send to c/o Jam Events,<br>314 Regents Park Road,<br>London,<br>N3 2JX<br>(Chana Charitable Trust Registered UK Charity Number 1070196)</span>');
+  $('label[for="registration_payment_usa_cheque"]').html(' I will send a cheque <span class="lbl long"><br>payable to FRIENDS OF CHANA UK INC<br>and sent c/o Judith Weiss,<br>1671 East 29th,<br>Brooklyn NY 11229*</span>');
   $('label[for="registration_payment"]').hide();
 });
 </script>
