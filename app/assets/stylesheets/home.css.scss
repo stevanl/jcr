@@ -50,7 +50,7 @@ body, li {
 }
 
 fieldset {
-  // background: lighten($redPale, 30%);
+  // background: lighten($mainPale, 30%);
   padding-bottom: 10px;
   @include border-radius;
 }
@@ -90,7 +90,7 @@ form {
     padding-right: 10px;}
 
   .string, .text, .tel, .email, .integer, .country, .boolean, .optionsRadio, li span {
-    // color: $redDark;
+    // color: $mainDark;
     font-weight: bold;
   }
   .help-block {
@@ -126,7 +126,7 @@ label.long {
     font-weight: normal; }
 }
 .card {
-  background: lighten($redPale, 25%);
+  background: lighten($mainPale, 25%);
   width: 270px;
   padding: 14px;
   margin: 10px auto 0 auto;
@@ -167,14 +167,14 @@ label.long {
 .simple_form label.collection_radio, .simple_form label.collection_check_box {
   float: none;
   display: inline;
-  // color: $redDark;
+  // color: $mainDark;
 }
 span.collection_radio {
   padding-top: 6px
 }
 .guide {
   margin-left: 140px;
-  // color: $redDark;
+  // color: $mainDark;
 }
 .ebb {
   position:absolute;
@@ -195,7 +195,7 @@ p.cta {
   width: 250px;
   @include vertical-gradient($orange, darken($orange, 15%));
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  border-color: $red $red $redDark;
+  border-color: $main $main $mainDark;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
 ul.inputs-list {
@@ -214,7 +214,7 @@ ul.inputs-list {
   width: 500px;
   text-align: center;
   .quote {
-    color: $redDark;
+    color: $mainDark;
     font-size: 19pt;
     margin: 10px 0 10px 0;
     line-height: 1.6em;
@@ -222,7 +222,7 @@ ul.inputs-list {
   }
   .attribute {
     font-style: italic;
-    color: $red;
+    color: $main;
   }
 }
 table.zebra-striped {
@@ -298,19 +298,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .sponsorhead {
-  border: 5px $red solid;
+  border: 5px $main solid;
   text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   @include border-radius(7px);
   @include box-shadow;
-  @include translucent-border($red, 0.2);
+  @include translucent-border($main, 0.2);
 }
 .sponsorhead.available {
-  border: 5px $red dashed;
+  border: 5px $main dashed;
   text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   @include border-radius(7px);
   @include box-shadow;
-  @include vertical-gradient(lighten($red, 60%), $white);
-  @include translucent-border($red, 0.2);
+  @include vertical-gradient(lighten($main, 60%), $white);
+  @include translucent-border($main, 0.2);
   p {
     margin-top: 60px;
     font-size: 18px;

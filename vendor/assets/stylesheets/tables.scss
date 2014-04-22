@@ -134,12 +134,12 @@ table {
   }
   // Red Table Headings
   .red {
-    color: $red;
-    border-bottom-color: $red;
+    color: $main;
+    border-bottom-color: $main;
   }
   .headerSortUp.red,
   .headerSortDown.red {
-    background-color: lighten($red, 50%);
+    background-color: lighten($main, 50%);
   }
   // Yellow Table Headings
   .yellow {
