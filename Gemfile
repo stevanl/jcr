@@ -13,6 +13,8 @@ group :assets do
   gem 'uglifier'
 end
 
+gem 'country_select'
+
 # JavasScript libs
 gem 'jquery-rails'
 gem 'modernizr-rails'
