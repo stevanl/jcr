@@ -4,8 +4,5 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
-//= require jquery-ui
-//= require bootstrap-modal
-//= require bootstrap-dropdown
-//= require bootstrap-tabs
+//= require supersized.core.3.2.1.min
 //= require jquery.nivo.slider.pack
