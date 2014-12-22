@@ -25,6 +25,8 @@ gem 'blueprint-rails'
 gem 'execjs'
 gem 'therubyracer'
 
+gem 'capistrano', '2.11.2'
+
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
