@@ -28,20 +28,25 @@
 
   <div class="clearfix">
     <h2>Room Supplements</h2>
-    <p>Inclusive room is shared with your co-driver. The following optional upgrades are available on a 1st come basis, subject to availability. Tick as appropriate</p>
+    <p>Inclusive room is shared with your co-driver. The following optional upgrades are available on a 1st come basis, subject to availability. Please be advised these prices are per person and are exclusive for the 2 nights of the Rally. If you wish to stay an extra night please advise at time of booking and we can arrange this for you.</p>
   </div>
-  <div class="clearfix"><%= f.input :sup_single_room, :label => "Single Room (£100)" %></div>
-  <div class="clearfix"><%= f.input :sup_superior_room, :label => "Superior room (£150)" %></div>
-  <div class="clearfix"><%= f.input :sup_junior_suite, :label => "Junior Suite (8 available) (£250)" %></div>
-  <div class="clearfix"><%= f.input :sup_junior_prestige_suite, :label => "Junior Suite Prestige Collection (5 available) (£300)" %></div>
-  <div class="clearfix"><%= f.input :sup_suite, :label => "Suite (2 available) (£400)" %></div>
-  <div class="clearfix"><%= f.input :sup_penthouse, :label => "Penthouse (1 available) (£450)" %>
+
+  <div class="clearfix"><%= f.input :sup_single_room, :label => "Single Room Supplement (£250 per person)" %></div>
+  <div class="clearfix"><%= f.input :sup_fairmont_room, :label => "Fairmont View Room (£300 per person)" %></div>
+  <div class="clearfix"><%= f.input :sup_deluxe_sea_room, :label => "Deluxe Sea View Rooms (£380 per person per night)" %></div>
+  <div class="clearfix"><%= f.input :sup_suite_garden_room, :label => "Suite Garden View (£665 per person)" %></div>
+  <div class="clearfix"><%= f.input :sup_riviera_sea_room, :label => "Riviera Sea View (£500 per night)" %></div>
+  <div class="clearfix"><%= f.input :sup_riviera_sea_single_room, :label => "Riviera Sea Single Supplement (£1000 per person)" %></div>
+  <div class="clearfix"><%= f.input :sup_suite_grand_prix_room, :label => "Suite Grand Prix (£2000 per person)" %></div>
+  <div class="clearfix"><%= f.input :sup_suite_commodore_room, :label => "Suite Commodore (£2000 per person)" %>
+  <div class="clearfix"><%= f.input :sup_own_car, :label => "Own Car Transport (£1500 approx)" %>
+  <div class="clearfix"><%= f.input :sup_car_video_highlights, :label => "NEW: Personal Video Highlights (£1250)" %>
   </div>
   <div class="clearfix">
     <span class="help-block offset2"><strong>Note</strong>: Please be advised these prices are per person and are exclusive for the 2 nights of the Rally. <br>If you wish to stay an extra night please advise at time of booking and we can arrange this for you.
     </span>
   </div>
-
+<!-- 
   <div class="clearfix">
     <h2>Car Supplements</h2>
     <p>Tick as appropriate</p>
@@ -67,7 +72,7 @@
         ['Ferrari FF €7288 (Deductible €15,000)', 'Ferrari FF €7288 (Deductible €15,000)'],
         ['Lamborghini Aventador €10,100 (Deductible €30,000)', 'Lamborghini Aventador €10,100 (Deductible €30,000)']
       ], :as => :select, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :selected => 'Maserati Gran Cabrio €700 (Deductible €9000)' %>
-  </div>
+  </div> -->
 
   <div class="clearfix">
     <p>These prices are subject to availability until 31st March at a first come, first served basis.</p>
@@ -78,38 +83,24 @@
 
   <div class="clearfix">
     <h2>Payment Details</h2>
-    <p><strong>JOINING FEE £2500 PER PERSON</strong> of which £1000 non-refundable deposit is required with registration to secure a place. Balance to be received by 30th April 2014.</p>
+    <p><strong>JOINING FEE £2500 PER PERSON</strong> of which £1000 non-refundable deposit is required with registration to secure a place. Balance to be received by 1<sup>st</sup> April 2015.</p>
     <p>Please select your preferred method of payment</p>
   </div>
   <div class="clearfix"><%= f.input :amount, :label => "Donation amount:", :input_html => {:class => "small"} %></div>
   <div class="clearfix">
     <h3>UK & Europe Payment details</h3>
     <div class="input">
-      <%= f.input :payment, :collection => [
-        ['Cheque', " I will send a cheque payable to "],
-        ['Credit Card', ' I want to pay by credit card (Please call +44 208 371 9080. We are unable to accept AMEX)'],
-        ['Invoice', ' I require an invoice'],
-        ['Receipt', ' I require a charity receipt'],
-        ['BACS', ' I will make a BACS payment']
-      ], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
-      <span class="lbl long"><div class="card strong"><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20262640</dd><dt>Swift Code:</dt><dd>CPBKGB22</dd><dt>IBAN Number:</dt><dd>GB11 CPBK 0800 5150 073210</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl></div></span>
+      <%= f.input :payment, :collection => [['Cheque', ' I enclose a cheque payable to '], ['CreditCard', ' I want to pay by Credit Card (please contact us on 020 8371 9080)'], ['Invoice', ' I require an invoice'], ['Receipt', ' I require a charity receipt'], ['BACS', ' I will make a BACS payment']], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
+      <span class="lbl long"><div class="card strong"><h4>UK Bank Details</h4><dl><dt>Account Name</dt><dd>Chana Charitable Trust</dd><dt>Bank:</dt><dd>Unity Trust Bank</dd><dt>Sort Code:</dt><dd>08-60-01</dd><dt>Account Number:</dt><dd>20262640</dd><dt>Swift Code:</dt><dd>CPBKGB22</dd><dt>IBAN Number:</dt><dd>GB11 CPBK 0800 5150 073210</dd><dt>Ref:</dt><dd>Please provide your name</dd></dl>
+      <h4>US Bank Details</h4>
+      <dl><dt>Bank:</dt><dd>Astoria Federal Savings</dd><dt>Account Number:</dt><dd>8311013630</dd><dt>Swift Code:</dt><dd>221472815</dd><dt>Friends of Chana Uk Inc.</dt><dt>TAX-ID No:</dt><dd>46-458-4506</dd><dt>C/O Judith Weiss, 1671 East 29th, Brooklyn NY 11229</dt></dl>
+      </div></span>
     </div>
 
-    <h3>US & Canada Payment details</h3>
-
-    <div class="input">
-      <%= f.input :payment, :collection => [
-        ['USA Cheque', " I want to send a USA cheque*"],
-        ['USA Online Payment', ' I will make an online payment from the USA']
-      ], :as => :radio, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :wrapper_html => { :class => "inputs-list" } %>
-      <span class="lbl long"><div class="card strong"><dl><dt>Bank:</dt><dd>Astoria Bank Savings</dd><dt>Account Number:</dt><dd>8311013630</dd><dt>Swift Code:</dt><dd>221472815</dd><dt>Account Name</dt><dd>FRIENDS OF CHANA UK INC.</dd><dt>TAX-ID Number:</dt><dd>46-458-4506</dd></dl></div></span>
-    </div>
-    <div class="clearfix">
-    <span class="help-block offset2"><strong>* Note</strong>: Please note that though tax-ID is through IRS registration isn’t completed but will be granted retrospectively. If that is a problem please contact us.
-    </span>
+    
   </div>
     <h4>Entry Donation / Booking Terms & Conditions</h4>
-    <p>Places are limited and the closing date for entry is Tuesday 1st April 2014. The joining fee is £2,500 per person of which £1,000 non refundable deposit is required to secure a place. This also helps with Chana’s cash flow. Balance to be received by 30th April 2014. This is based on two people sharing a car and a twin/double room. All entry donations will be paid direct to CHANA. Participants must arrange their own flights as well as transfers to the hotel. Cars will be available from the hotel at registration.</p>
+    <p>Places are limited and the closing date for entry is Wednesday 1<sup>st</sup> April 2015. The joining fee is £2,500 per person of which £1,000 non refundable deposit is required to secure a place. This also helps with Chana’s cash flow. Balance to be received by 1<sup>st</sup> April 2015. All entry donations will be paid direct to CHANA. Participants must arrange their own flights to Nice Airport as well as transfers to the hotel. Some cars will be delivered at the airport depending on the hire company logistics, to be confirmed nearer the time. If you have any queries please contact us on 0208 371 9080.</p>
   </div>
 
   <div class="clearfix">
