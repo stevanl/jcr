@@ -3,4 +3,3 @@ log/*.log
 log/*.pid
 tmp/**/*
 log/mongrel_debug/*
-Gemfile.lock
