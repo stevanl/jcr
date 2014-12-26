@@ -62,40 +62,6 @@
     <span class="help-block offset2"><strong>Note</strong>: Please be advised these prices are per person and are exclusive for the 2 nights of the Rally. <br>If you wish to stay an extra night please advise at time of booking and we can arrange this for you.
     </span>
   </div>
-<!--
-  <div class="clearfix">
-    <h2>Car Supplements</h2>
-    <p>Tick as appropriate</p>
-  </div>
-  <div class="clearfix"><%= f.input :sup_own_car, :label => "Own Car Transport (£1500 approx)" %></div>
-  <div class="clearfix"><%= f.input :sup_car_video_highlights, :label => "NEW: Personal Video Highlights (£1250)" %></div>
-
-  <div class="clearfix"><%= f.input :sup_supercar, :label => "Exceptional car list", :collection => [
-        ['Maserati Gran Cabrio €700 (Deductible €9000)', 'Maserati Gran Cabrio €700 (Deductible €9000)'],
-        ['Porsche 911 Cabrio €1410 (Deductible €7000)', 'Porsche 911 Cabrio €1410 (Deductible €7000)'],
-        ['Porsche Panamera GTS €1492 (Deductible €5000)', 'Porsche Panamera GTS €1492 (Deductible €5000)'],
-        ['Ferrari California €3541 (Deductible €14,000)', 'Ferrari California €3541 (Deductible €14,000)'],
-        ['Bentley GTC €4214 (Deductible €20,000)', 'Bentley GTC €4214 (Deductible €20,000)'],
-        ['Ferrari 458 Spyder €4460 (Deductible €20,000)', 'Ferrari 458 Spyder €4460 (Deductible €20,000)'],
-        ['Ferrari 458 Coupe €4790 (Deductible €15,000)', 'Ferrari 458 Coupe €4790 (Deductible €15,000)'],
-        ['Ferrari 430 Spyder €5720 (Deductible €10,000)', 'Ferrari 430 Spyder €5720 (Deductible €10,000)'],
-        ['Mercedes SLS AMG €5740 (Deductible €10,000)', 'Mercedes SLS AMG €5740 (Deductible €10,000)'],
-        ['Audi R8 Spyder €5840 (Deductible €20,000)', 'Audi R8 Spyder €5840 (Deductible €20,000)'],
-        ['Ferrari 612 Scaglietti €6298 (Deductible €15,000)', 'Ferrari 612 Scaglietti €6298 (Deductible €15,000)'],
-        ['Lamborghini Gallardo €6590 (Deductible €21,000)', 'Lamborghini Gallardo €6590 (Deductible €21,000)'],
-        ['Aston Martin DBS (manual) €6992 (Deductible €30,000)', 'Aston Martin DBS (manual) €6992 (Deductible €30,000)'],
-        ['Ferrari Berlinetta F12 €7140 (Deductible €30,000)', 'Ferrari Berlinetta F12 €7140 (Deductible €30,000)'],
-        ['Ferrari FF €7288 (Deductible €15,000)', 'Ferrari FF €7288 (Deductible €15,000)'],
-        ['Lamborghini Aventador €10,100 (Deductible €30,000)', 'Lamborghini Aventador €10,100 (Deductible €30,000)']
-      ], :as => :select, :item_wrapper_tag => :li, :collection_wrapper_tag => :ul, :label_method => :last, :value_method => :first, :selected => 'Maserati Gran Cabrio €700 (Deductible €9000)' %>
-  </div>
-
-  <div class="clearfix">
-    <p>These prices are subject to availability until 31<sup>st</sup> March at a first come, first served basis.</p>
-    <p>After this date we will not be able to guarantee these cars.</p>
-    <p>If you have an alternative car you would like us to enquire about please inform us at time of registration.</p>
-  </div>
- -->
 
   <div class="clearfix">
     <h2>Payment Details</h2>
@@ -117,9 +83,9 @@
       <dl><dt>Bank:</dt><dd>Astoria Federal Savings</dd><dt>Account Number:</dt><dd>8311013630</dd><dt>Swift Code:</dt><dd>221472815</dd><dt>Friends of Chana UK Inc.</dt><dt>TAX-ID No:</dt><dd>46-458-4506</dd><dt>C/O Judith Weiss, 1671 East 29th, Brooklyn NY 11229</dt></dl>
       </div></span>
     </div>
-
-
   </div>
+
+  <div class="clearfix">
     <h4>Entry Donation / Booking Terms & Conditions</h4>
     <p>Places are limited and the closing date for entry is Wednesday 1<sup>st</sup> April 2015. The joining fee is £2,500 per person of which £1,000 non refundable deposit is required to secure a place. This also helps with Chana’s cash flow. Balance to be received by 1<sup>st</sup> April 2015. All entry donations will be paid direct to CHANA. Participants must arrange their own flights to Nice Airport as well as transfers to the hotel. Some cars will be delivered at the airport depending on the hire company logistics, to be confirmed nearer the time. If you have any queries please contact us on 0208 371 9080.</p>
   </div>
@@ -127,8 +93,11 @@
   <div class="clearfix">
     <h2>Comments</h2>
   </div>
+
   <div class="clearfix">
-    <%= f.input :comments, :input_html => { :size => '30x10' }, :label => "Any other requirements or information" %></div>
+    <%= f.input :comments, :input_html => { :size => '30x10' }, :label => "Any other requirements or information" %>
+  </div>
+  
   <div class="clearfix">
     <div class="input button">
       <%= f.button :submit, :class => "btn large", :value => "Submit Registration" %>
