@@ -46,6 +46,10 @@
         <td><%= @person.email %></td>
       </tr>
       <tr>
+        <th>T-Shirt:</th>
+        <td><%= @person.tshirt %></td>
+      </tr>
+      <tr>
         <th colspan="2">Driver 2</th>
       </tr>
       <tr>
@@ -85,6 +89,10 @@
         <td><%= @person.co_driver_telephone %></td>
       </tr>
       <tr>
+        <th>T-Shirt: </th>
+        <td><%= @person.co_driver_tshirt %></td>
+      </tr>
+      <tr>
         <th colspan="2">Room Supplements</th>
       </tr>
       <tr>
@@ -96,28 +104,20 @@
         <td><%= @person.sup_fairmont_room %></td>
       </tr>
       <tr>
-        <th>Deluxe Sea room:</th>
+        <th>Deluxe Sea and Garden View room:</th>
         <td><%= @person.sup_deluxe_sea_room %></td>
       </tr>
       <tr>
-        <th>Suite Garden room:</th>
-        <td><%= @person.sup_suite_garden_room %></td>
+        <th>Suite Garden View Suite room:</th>
+        <td><%= @person.sup_garden_view_suite %></td>
       </tr>
       <tr>
-        <th>Riviera Sea room:</th>
-        <td><%= @person.sup_riviera_sea_room %></td>
+        <th>Riviera Suite Sea View room:</th>
+        <td><%= @person.sup_riviera_sea_single_suite %></td>
       </tr>
       <tr>
-        <th>Riviera Sea Single room:</th>
-        <td><%= @person.sup_riviera_sea_single_room %></td>
-      </tr>
-      <tr>
-        <th>Suite Grand room:</th>
+        <th>Suite Grand & Commodore room:</th>
         <td><%= @person.sup_suite_grand_prix_room %></td>
-      </tr>
-      <tr>
-        <th>Commodore room:</th>
-        <td><%= @person.sup_suite_commodore_room %></td>
       </tr>
       <tr>
         <th colspan="2">Car Supplements</th>
@@ -129,10 +129,6 @@
       <tr>
         <th>Video highlights:</th>
         <td><%= @person.sup_car_video_highlights %></td>
-      </tr>
-      <tr>
-        <th>Exceptional Car List:</th>
-        <td><%= @person.sup_supercar %></td>
       </tr>
       <tr>
         <th colspan="2">Payment</th>
